@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
   const changeBackground = () => {
-    if(window.scrollY >= 100) {
+    if(window.scrollY > 320) {
       setNavBar(true)
     } else {
       setNavBar(false);
