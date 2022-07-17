@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  background: var(--bgColor);
+  background: var(--backColor);
   flex-wrap: wrap;
 }
 
@@ -11,17 +11,17 @@
 
 .aboutText > h2 {
   font-size: 1.5rem;
-  color: var(--orange);
+  color: var(--altColor);
   text-transform: capitalize;
   font-weight: 700;
   padding: .5rem 0;
   line-height: 1.2;
+  text-align: center;
 }
 
 .aboutText > h3 {
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: var(--white);
   font-weight: 400;
   padding: .5rem 0;
   line-height: 1.2;
@@ -29,7 +29,6 @@
 
 .aboutText > p {
   font-size: 1rem;
-  color: var(--white);
   text-align: justify;
   padding: 1.5rem 0;
   line-height: 1.5;
@@ -40,7 +39,6 @@
 }
 
 .aboutText > ul > li {
-  color: var(--white);
   text-decoration: none;
   padding: .5rem 0;
   line-height: 1.5;
