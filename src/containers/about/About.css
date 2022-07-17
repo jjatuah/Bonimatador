@@ -1,0 +1,149 @@
+.about {
+  display: flex;
+  background: var(--bgColor);
+  flex-wrap: wrap;
+}
+
+.aboutText {
+  flex: 1;
+  padding: 85px;
+}
+
+.aboutText > h2 {
+  font-size: 1.5rem;
+  color: var(--orange);
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: .5rem 0;
+  line-height: 1.2;
+}
+
+.aboutText > h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: var(--white);
+  font-weight: 400;
+  padding: .5rem 0;
+  line-height: 1.2;
+}
+
+.aboutText > p {
+  font-size: 1rem;
+  color: var(--white);
+  text-align: justify;
+  padding: 1.5rem 0;
+  line-height: 1.5;
+}
+
+.aboutText > ul {
+  padding: 0.8rem 0;
+}
+
+.aboutText > ul > li {
+  color: var(--white);
+  text-decoration: none;
+  padding: .5rem 0;
+  line-height: 1.5;
+  display: flex;
+}
+
+.aboutImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 85px;
+  padding-bottom: 0px;
+}
+
+.aboutImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1050px) {
+  .aboutText > h2  {
+    font-size: 1.35rem;
+  }
+
+  .aboutText > h3  {
+    font-size: 1.5em;
+  }
+
+  .aboutText > p  {
+    font-size: 0.9rem;
+  }
+
+  .aboutText > ul > li  {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .aboutText > ul  {
+    padding: 0.3rem 0;
+  }
+
+  .aboutText > p  {
+    padding: 0.6rem 0;
+  }
+
+  .aboutText {
+    padding: 65px;
+  }
+
+  .aboutImage {
+    padding: 65px;
+  }
+}
+
+@media (max-width: 880px) {
+  .about{
+    flex-direction: column;
+  }
+
+  .aboutText {
+    padding-bottom: 0;
+  }
+
+  .aboutImage {
+    overflow: hidden;
+  }
+
+  .aboutImage > img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .aboutText > h3 {
+    font-size: 1.2rem;
+  }
+
+  .aboutText > h2 {
+    font-size: 1.2rem;
+  }
+
+  .aboutText > ul  {
+    padding: 0.1rem 0;
+  }
+
+  .aboutText > ul > li {
+    font-size: 0.7rem;
+  }
+
+  .aboutText > p  {
+    padding: 0.3rem 0;
+    font-size: 0.7rem;
+  }
+
+  .aboutImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
