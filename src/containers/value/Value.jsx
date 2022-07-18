@@ -43,7 +43,7 @@ const Value = () => {
             <div className="valueItem">
               <div className="valueItemHeader">
                 <span>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}</span>
-                <h3> Best prices in the market</h3>
+                <h3> Best interest rate</h3>
                 <div className="valueItemArrow">
                   <span>{<KeyboardArrowDownOutlined/>}</span>
                 </div>
@@ -57,7 +57,7 @@ const Value = () => {
             <div className="valueItem">
               <div className="valueItemHeader">
                 <span>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}</span>
-                <h3> Best prices in the market</h3>
+                <h3> Best value for money</h3>
                 <div className="valueItemArrow">
                   <span>{<KeyboardArrowDownOutlined/>}</span>
                 </div>
@@ -71,7 +71,7 @@ const Value = () => {
             <div className="valueItem">
               <div className="valueItemHeader">
                 <span>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}</span>
-                <h3> Best prices in the market</h3>
+                <h3> Sure and secure investments</h3>
                 <div className="valueItemArrow">
                   <span>{<KeyboardArrowDownOutlined/>}</span>
                 </div>

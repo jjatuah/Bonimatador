@@ -1,0 +1,86 @@
+.valueContainer {
+  row-gap: 3rem;
+  display: grid;
+}
+
+.valueImages {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.valueOrbe {
+  width: 266px;
+  height: 316px;
+  border-radius: 135px  135px 16px 16px;
+  background-color: hsl(228, 24%, 97%);
+}
+
+.valueImage {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 125px 125px 12px 12px;
+  inset: 0;
+  margin: auto;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+}
+
+
+
+
+.valueItems {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.valueItem {
+  background-color: aquamarine;
+  border: 2px solid indianred;
+  border-radius: .5rem;
+  padding: 1rem 0.75rem;
+}
+
+.valueItemHeader {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.valueItemHeader > span {
+  background-color: blueviolet;
+  padding: 5px;
+  border-radius: .25rem;
+  font-size: 18px;
+  color: darkslategrey;
+  margin-right: .75rem;
+  transition: .3s;
+}
+
+.valueItemHeader > h3 {
+  font-size: 19px;
+}
+
+.valueItemArrow {
+  display: inline-flex;
+  background-color: teal;
+  padding: 0.25rem;
+  color: brown;
+  border-radius: 2px;
+  font-size: 10px;
+  margin-left: auto;
+  transition: .3s;
+}
+
+.valueItemDesc {
+  font-size: 16px;
+  padding: 1.25rem 2.
+  5rem 0 2.75rem;
+}
+
+.valueItemDesc > p {
+  overflow: hidden;
+  height: 0;
+  transition: all .25s ease;
+}
