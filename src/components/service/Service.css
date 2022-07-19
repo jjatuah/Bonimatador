@@ -1,0 +1,55 @@
+.service {
+  position: relative;
+  overflow: hidden;
+}
+
+.serviceImageContainer {
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  height: 470px;
+  background-color: #111;
+  filter: brightness(47.5%);
+}
+
+.serviceImageContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceDesc {
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.serviceDesc > h4 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--textColor);
+}
+
+.serviceDesc > a {
+  border: 1px solid var(--textColor);
+  padding: 10px;
+  color: var(--textColor);
+  border-radius: .9em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.serviceImageContainer:hover {
+  transform: scale(1.1);
+  filter: brightness(90%);
+}
+
+
+.service:hover .serviceDesc * {
+  text-shadow: 1px 1px 10px #08080808 ;
+}
