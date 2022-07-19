@@ -9,6 +9,10 @@ import service3 from "../../assets/Service3.jpg";
 const Services = () => {
   return ( 
     <div className="services">
+      <div className="servicesHeader">
+        <h2>Our Services</h2>
+        <p>We offer the services below</p>
+      </div>
       <div className="servicesContainer">
         <Service img={service1} title={"Real Estate"} path={"#"} />
         <Service img={service2} title={"Rental Appartments"} path={"#"} />

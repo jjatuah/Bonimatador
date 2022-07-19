@@ -1,7 +1,13 @@
 .service {
   position: relative;
   overflow: hidden;
+  /* filter: brightness(80.5%); */
 }
+
+/* .service > .serviceDesc {
+  filter: brightness(100%);
+  filter: blur(1%);
+} */
 
 .serviceImageContainer {
   background-size: cover;
@@ -30,9 +36,10 @@
 }
 
 .serviceDesc > h4 {
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 30px;
   color: var(--textColor);
+  font-size: 22px;
 }
 
 .serviceDesc > a {
@@ -52,4 +59,12 @@
 
 .service:hover .serviceDesc * {
   text-shadow: 1px 1px 10px #08080808 ;
+}
+
+
+.serviceDesc > a:hover {
+  letter-spacing: 1px;
+  color: var(--altColor);
+  transition: .5s;
+  border: 1px solid var(--altColor);
 }
