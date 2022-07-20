@@ -1,0 +1,258 @@
+.contact {
+  padding: 50px;
+  background: var(--backColor);
+}
+
+.header {
+  color: var(--textColor);
+}
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contactInfo {
+  width: 40%;
+}
+
+.contactInfoBx {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfoBx .box {
+  border-radius: 1.2rem;
+  text-align: center;
+  border:  1px solid transparent;
+  background: #111;
+  margin: 10px;
+  padding: 20px;
+  width: 50%;
+}
+
+.box > .icon {
+  font-size: 1.5rem;
+  color: var(--textColor);
+}
+
+.box > h5 {
+  color: var(--textColor);
+  padding: 0.3rem;
+}
+
+.box > a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--textColor);
+  background: var(--altColor);
+  padding: .5rem;
+}
+
+/* .contactInfoBx .box .icon {
+  min-width: 40px;
+  padding-top: 4px;
+  color: var(--textColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.contactInfoBx .box .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 16px;
+  color: var(--textColor);
+  font-weight: 300;
+}
+
+.contactInfoBx .box .text h3 {
+  font-weight: 500;
+  color: #2196f3;
+  margin-bottom: 0;
+} */
+
+.formBx {
+  width: 60%;
+}
+
+.success {
+  color: var(--altColor);
+  margin-bottom: 0.4rem;
+}
+
+.formBx form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formBx form h3, .contactInfo h3 {
+  color: var(--textColor);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.formHeader {
+  padding: 5px 0;
+}
+
+.formBx form input, .formBx form textarea {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: #111;
+  color: var(--textColor);
+  resize: none;
+}
+
+.formBx form textarea {
+  min-height: 200px;
+}
+
+.formBx form input::placeholder, .formBx form textarea::placeholder {
+  color: #999;
+}
+
+.formBx form input[type="submit"] {
+  max-width: 100px;
+  background: var(--altColor);
+  cursor: pointer;
+  text-transform: uppercase;
+  /* letter-spacing: 2px; */
+}
+
+
+@media screen and (max-width: 1001px) {
+  .content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 0;
+  }
+
+  .contactInfoBx .box {
+    width: 190%;
+  }
+
+  .contactInfo {
+    width: 40%;
+  }
+
+  .formBx {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact {
+    padding: 30px;
+  }
+
+  .formBx form input {
+    padding: 10px;
+  }
+
+  .formBx form textarea {
+    min-height: 180px;
+  }
+
+  .formBx form h3, .contactInfo h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contactInfo {
+    width: 100%;
+  }
+
+  .contactInfo > h3 {
+    text-align: center;
+  }
+
+  .contactInfoBx {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactInfoBx .box {
+    width: 40%;
+  }
+
+  .formBx {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formBx form {
+    width: 85%;
+  }
+
+  .formBx form input[type="submit"] {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .formBx form input::placeholder, .formBx form textarea::placeholder {
+    color: #999;
+    font-size: 14px;
+  }
+
+  .formBx form input[type="submit"] {
+    font-size: 14px;
+  }
+
+  .formBx form h3, .contactInfo h3 {
+    font-size: 17px;
+  }
+
+  .contactInfoBx .box {
+    width: 60%;
+  }
+
+  .box > a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contactInfoBx .box {
+    width: 70%;
+  }
+
+  .formBx form {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contactInfoBx .box {
+    width: 85%;
+  }
+
+  .formBx form input::placeholder, .formBx form textarea::placeholder {
+    color: #999;
+    font-size: 12px;
+  }
+
+  .formBx form input[type="submit"] {
+    font-size: 12px;
+  }
+
+}

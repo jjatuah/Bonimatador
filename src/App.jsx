@@ -7,6 +7,7 @@ import About from "./containers/about/About";
 import Value from "./containers/value/Value";
 import Services from "./containers/services/Services";
 import FeaturedProperties from "./containers/featured properties/FeaturedProperties";
+import Contact from "./components/contact/Contact";
 
  
 
@@ -19,6 +20,7 @@ const App = () => {
       <Value />
       <Services />
       <FeaturedProperties />
+      <Contact />
     </div>
    );
 }
