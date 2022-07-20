@@ -1,5 +1,22 @@
+.featuredProperties {
+  padding: 50px;
+}
+
+.featuredProperties > h2 {
+  font-size: 1.7rem;
+  color: var(--altColor);
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 0.5rem 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
 .featuredPropertyContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  place-items: center;
+  place-self: center;
 }
