@@ -6,6 +6,7 @@ import Banner from "./containers/banner/Banner";
 import About from "./containers/about/About";
 import Value from "./containers/value/Value";
 import Services from "./containers/services/Services";
+import FeaturedProperties from "./containers/featured properties/FeaturedProperties";
 
  
 
@@ -17,6 +18,7 @@ const App = () => {
       <About />
       <Value />
       <Services />
+      <FeaturedProperties />
     </div>
    );
 }
