@@ -1,0 +1,143 @@
+.featuredProperty {
+  border: 1px solid rgba(0, 0, 0, .2);
+  /* box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1); */
+  border-radius: .5rem;
+  overflow: hidden;
+  background: var(--textColor);
+  /* flex: 1 1 30rem; */
+}
+
+.propertyImage {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 16rem;
+}
+
+.propertyImage > img {
+  width: 100%;
+  height: 100%;
+  transition: .2s linear;
+  object-fit: cover;
+}
+
+.featuredProperty:hover .propertyImage > img {
+  transform: scale(1.1);
+}
+
+.propertyImage > .info {
+  position: absolute;
+  top: .6rem;
+  left: 0;
+  display: flex;
+}
+
+.propertyImage > .info > h3 {
+  font-size: .8rem;
+  color: var(--textColor);
+  background: rgba(0, 0, 0, .3);
+  border-radius: .4rem;
+  padding: .3rem .7rem;
+  font-weight: 500;
+  margin: 0 0.3rem;
+}
+
+.propertyData {
+  padding: .8rem;
+}
+
+.price_contact {
+  display: flex;
+  align-items: center;
+}
+
+.price_contact > h3 {
+  font-size: 1.25rem;
+  margin-right: auto;
+  color: var(--altColor);
+}
+
+.price_contact > a {
+  color: var(--altColor);
+  font-size: .8rem;
+  margin-right: .3rem;
+  border-radius: .3rem;
+  height: 2.2rem;
+  width: 2.2rem;
+  line-height: 2.2rem;
+  text-align: center;
+  background: hsl(225, 22%, 93%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price_contact > a:hover {
+  border: 2px solid var(--altColor);
+  background: var(--textColor);
+  color: var(--altColor);
+}
+
+.propertyDesc {
+  padding: .6rem 0;
+}
+
+.propertyDesc > h3 {
+  font-size: 1.4rem;
+  color: var(--altColor);
+}
+
+.propertyDesc > p {
+  font-size: .85rem;
+  text-align: justify;
+  font-style: italic;
+}
+
+.otherDetails {
+  padding: .3rem 0;
+  display: flex;
+}
+
+.otherDetails > h3 {
+  flex: 1;
+  padding: .3rem;
+  border: 2px solid var(--altColor);
+  color: var(--altColor);
+  /* background: hsl(225, 22%, 93%); */
+  font-size: .7rem;
+  margin-right: .3rem;
+  border-radius: .3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.propertyButtons {
+  display: flex;
+  gap: .6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.propertyButtons > a {
+  flex: 1;
+  font-size: .9rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  /* padding-bottom: .5rem; */
+  background: hsl(225, 22%, 93%);
+  /* align-self: center;
+  justify-self: center; */
+  margin: 0 1rem;
+  margin-bottom: .5rem;
+  padding: .3rem;
+  color: var(--altColor);
+  font-weight: 600;
+}
+
+.propertyButtons > a:hover {
+  border: 2px solid var(--altColor);
+  background: var(--textColor);
+  color: var(--altColor);
+}

@@ -17,7 +17,7 @@ const FeaturedProperty = ({img, alt, price, location, type, setting, description
 
         <div className="propertyData">
           <div className="price_contact">
-            <h2>{price}</h2>
+            <h3>{price}</h3>
             <a href="tel:+2348031952466" target="_blank" ><Phone /></a>
             <a href="https://wa.me/+2348031952466?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry" target="_blank" ><WhatsApp /></a>
             <a href="#" target="_blank" ><Facebook /></a>
@@ -43,4 +43,4 @@ const FeaturedProperty = ({img, alt, price, location, type, setting, description
    );
 }
  
-export default FeaturedProperty;
+export default FeaturedProperty; 
