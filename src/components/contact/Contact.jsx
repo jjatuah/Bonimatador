@@ -39,41 +39,41 @@ const Contact = () => {
   return ( 
     <div className="contact"  id='contact'>
       <div className="header" >
-        <h2 id='secColor'>Contact Us</h2>
-        <p>Let me help you code your wonderful Idea into reality.</p>
+        <h2>Have a question in mind ?</h2>
+        <p>Let us help you.</p>
       </div>
 
       <div className="content">
         <div className="contactInfo">
-          <h3>Contact Info</h3>
+          <h2>Contact Info</h2>
           <div className="contactInfoBx">
 
             <div className="box">
               <div className="icon"><Phone /></div>
-              <h3>Phone</h3>
-              <h5>+2348165379722</h5>
-              <a href="tel:+2348165379722" target="blank">Click to call us now.</a>
+              <h3 style={{color: "#2196f3"}}>Phone</h3>
+              <h5>+2348031952466</h5>
+              <a href="tel:+2348031952466" target="blank">Click to call us now.</a>
             </div>
 
             <div className="box">
               <div className="icon"><MailOutline /></div>
-              <h3>Email</h3>
-              <h5>jjatuah@gmail.com</h5>
-              <a href="mailto:jjatuah@gmail.com" target="blank">Click to Send an Email</a>
+              <h3 style={{color: "#2196f3"}}>Email</h3>
+              <h5>bonimatador@gmail.com</h5>
+              <a href="mailto:bonimatador@gmail.com" target="blank">Click to Send an Email</a>
             </div>
 
             <div className="box">
               <div className="icon"><WhatsApp /></div>
-              <h3>WhatsApp</h3>
-              <h5>+2348165379722</h5>
-              <a href="https://wa.me/+2348165379722?text=I'm%20from%20your%20portfolio%20website%20and%20I'm%20interested%20in%20working%20with%20you" target="blank">Click to Send a WhatsApp message</a>
+              <h3 style={{color: "#2196f3"}}>WhatsApp</h3>
+              <h5>+2348031952466</h5>
+              <a href="https://wa.me/+2348031952466?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry" target="blank">Click to Send a WhatsApp message</a>
             </div>
           </div>
         </div>
 
         <div className="formBx">
           <form ref={form} onSubmit={sendEmail}>
-            <h3 className='formHeader'>Send us a Message</h3>
+            <h2 className='formHeader'>Send us a Message</h2>
             
             <div className="success">{success}</div>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.css";
-import aboutImage from "../../assets/About.jpg";
+import aboutImage1 from "../../assets/About.jpg";
+import aboutImage2 from "../../assets/About2.jpg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 
 
@@ -9,7 +10,7 @@ const About = () => {
     <div className="about">
       <div className="aboutText">
         <h2>about us</h2>
-        <h3>Bring modern real estate solutions to nigerians</h3>
+        <h3>Bringing modern real estate solutions to nigerians</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit?</p>
         <ul>
           <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}How to support your Immune system</li>
@@ -20,7 +21,7 @@ const About = () => {
       </div>
 
       <div className="aboutImage">
-        <img src={aboutImage} alt="" />
+        <img src={aboutImage1} alt="" />
       </div>
     </div>
    );

@@ -1,10 +1,26 @@
 .contact {
   padding: 50px;
-  background: var(--backColor);
+  /* background: var(--backColor); */
 }
 
 .header {
-  color: var(--textColor);
+  text-align: center;
+}
+
+.header > h2  {
+  color: var(--altColor);
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header > p {
+  font-weight: 400;
+  padding: 0.5rem 0;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  color: var(--altColor);
 }
 
 .content {
@@ -16,6 +32,15 @@
   width: 40%;
 }
 
+.contactInfo > h2 {
+  color: #111;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: 50px;
+}
+
 .contactInfoBx {
   display: flex;
   flex-direction: column;
@@ -25,7 +50,7 @@
   border-radius: 1.2rem;
   text-align: center;
   border:  1px solid transparent;
-  background: #111;
+  background: hsl(225, 22%, 93%);
   margin: 10px;
   padding: 20px;
   width: 50%;
@@ -33,11 +58,11 @@
 
 .box > .icon {
   font-size: 1.5rem;
-  color: var(--textColor);
+  color: var(--altColor);
 }
 
 .box > h5 {
-  color: var(--textColor);
+  color: var(--altColor);
   padding: 0.3rem;
 }
 
@@ -80,6 +105,17 @@
   width: 60%;
 }
 
+.formHeader {
+  color: #111;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+
 .success {
   color: var(--altColor);
   margin-bottom: 0.4rem;
@@ -107,8 +143,8 @@
   font-size: 16px;
   border: none;
   outline: none;
-  background: #111;
-  color: var(--textColor);
+  background: hsl(225, 22%, 93%);
+  color: #555;
   resize: none;
 }
 
@@ -126,6 +162,7 @@
   cursor: pointer;
   text-transform: uppercase;
   /* letter-spacing: 2px; */
+  color: var(--textColor);
 }
 
 
