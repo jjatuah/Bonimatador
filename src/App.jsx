@@ -8,7 +8,12 @@ import Value from "./containers/value/Value";
 import Services from "./containers/services/Services";
 import FeaturedProperties from "./containers/featured properties/FeaturedProperties";
 import Contact from "./components/contact/Contact";
-import Testimonials from "./containers/testimonials/Testimonials";
+import Test from "./test";
+import Test2 from "./test2";
+import Testimonies from "./containers/testimonies/Testimonies";
+import Testimony from "./components/testimony/Testimony";
+import abc from "./assets/About.jpg"
+
 
  
 
@@ -22,7 +27,7 @@ const App = () => {
       <Services />
       <FeaturedProperties />
       <Contact />
-      <Testimonials />
+      <Testimonies />
     </div>
    );
 }
