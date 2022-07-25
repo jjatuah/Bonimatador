@@ -6,7 +6,6 @@
 .testimonialsbackground {
   background-size: cover;
   background-position: center;
-  cursor: pointer;
   height: 470px;
   background-color: #111;
   filter: brightness(47.5%);
@@ -33,3 +32,97 @@
   color: var(--altColor);
   margin-bottom: 10px;
 }
+
+
+
+
+.testimony {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.testimony:hover > img {
+  transform: scale(1.1);
+}
+
+.testimony > img {
+  max-width: 100px;
+  float: left;
+  margin: 5px 0 0 5px;
+}
+
+.testimonyContent * {
+  color: var(--textColor);
+}
+
+.testimonyContent {
+  margin-left: 120px;
+  color: var(--textColor);
+}
+
+.testimonyContent > p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.testimonyContent > h4 {
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.testimonyContent > h5 {
+  font-size: .9em;
+}
+
+.left {
+  position: absolute;
+  z-index: 1000;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  color: var(--textColor);
+}
+
+.right {
+  position: absolute;
+  z-index: 1000;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  color: var(--textColor);
+}
+
+/* .serviceDesc {
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+} */
+
+/* .rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+} */
