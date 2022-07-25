@@ -12,7 +12,7 @@ import Test from "./test";
 import Test2 from "./test2";
 import Testimonies from "./containers/testimonies/Testimonies";
 import Testimony from "./components/testimony/Testimony";
-import abc from "./assets/About.jpg"
+import Testimonials from "./containers/testimonials/Testimonials";
 
 
  
@@ -27,7 +27,8 @@ const App = () => {
       <Services />
       <FeaturedProperties />
       <Contact />
-      <Testimonies />
+      {/* <Testimonies /> */}
+      <Testimonials />
     </div>
    );
 }
