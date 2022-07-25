@@ -11,6 +11,7 @@ import Contact from "./components/contact/Contact";
 import Test from "./test";
 import Test2 from "./test2";
 import Testimonials from "./containers/testimonials/Testimonials";
+import Footer from "./components/footer/Footer";
 
 
  
@@ -26,6 +27,7 @@ const App = () => {
       <FeaturedProperties />
       <Contact />
       <Testimonials />
+      <Footer />
     </div>
    );
 }
