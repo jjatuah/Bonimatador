@@ -10,8 +10,6 @@ import FeaturedProperties from "./containers/featured properties/FeaturedPropert
 import Contact from "./components/contact/Contact";
 import Test from "./test";
 import Test2 from "./test2";
-import Testimonies from "./containers/testimonies/Testimonies";
-import Testimony from "./components/testimony/Testimony";
 import Testimonials from "./containers/testimonials/Testimonials";
 
 
@@ -27,7 +25,6 @@ const App = () => {
       <Services />
       <FeaturedProperties />
       <Contact />
-      {/* <Testimonies /> */}
       <Testimonials />
     </div>
    );

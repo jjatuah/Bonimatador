@@ -13,13 +13,13 @@ export const testimonyData = [
   {
     image: reviewImage2,
     testimony: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit",
-    name: " Jess Walsh",
-    position: "Manager KKG Group"
+    name: "Anna Baker",
+    position: "CEO AB Chemicals"
   },
   {
     image: reviewImage3,
     testimony: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit",
-    name: " Jess Walsh",
-    position: "Manager KKG Group"
+    name: " Justin Solomon",
+    position: "Pastor LFC Michigan"
   }
 ]
