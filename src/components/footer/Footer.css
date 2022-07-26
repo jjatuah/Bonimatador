@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-around;
   padding: 0 150px;
+  gap: 50px;
 }
 
 .pageLinks > h2 {
@@ -18,8 +19,12 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 5px 0;
   color: #111;
+  margin: 2px 0;
+  padding: 3px 0;
+  color: #111;
+  /* background: hsl(225, 22%, 93%);
+  border-radius: 10px; */
 }
 
 .contactLinks > h2 {
@@ -32,8 +37,11 @@
   align-items: center;
   /* justify-content: center; */
   text-decoration: none;
-  padding: 5px 0;
+  margin: 2px 0;
+  padding: 3px 0px;
   color: #111;
+  /* background: hsl(225, 22%, 93%);
+  border-radius: 10px; */
 }
 
 .contactsContainer > a:hover, .linksContainer > a:hover {
