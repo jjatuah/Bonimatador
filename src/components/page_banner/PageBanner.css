@@ -1,0 +1,54 @@
+.pageBanner {
+  position: relative;
+  overflow: hidden;
+  /* filter: brightness(80.5%); */
+}
+
+/* .service > .serviceDesc {
+  filter: brightness(100%);
+  filter: blur(1%);
+} */
+
+.pageBannerImage {
+  background-size: cover;
+  background-position: center;
+  height: 470px;
+  background-color: #111;
+  filter: brightness(47.5%);
+}
+
+.pageBannerImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pageBannerTitle {
+  text-align: left;
+  position: absolute;
+  z-index: 100;
+  /* margin-left: auto;
+  margin-right: auto; */
+  left: 10%;
+  /* right: 0; */
+  top: 50%;
+
+}
+
+.pageBannerTitle > span {
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: var(--textColor);
+  font-size: 17px;
+}
+
+.pageBannerTitle > h3 {
+  /* border: 1px solid var(--textColor); */
+  /* padding: 10px; */
+  color: var(--textColor);
+  /* border-radius: .9em; */
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-top: 7px;
+}
