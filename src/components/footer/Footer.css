@@ -6,7 +6,7 @@
 .footerLinks {
   display: flex;
   justify-content: space-around;
-  padding: 0 150px;
+  padding: 0 15git 0px;
   gap: 50px;
 }
 
