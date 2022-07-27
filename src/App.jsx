@@ -12,6 +12,7 @@ import Test from "./test";
 import Test2 from "./test2";
 import Testimonials from "./containers/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
+import Rentals from "./pages/rentals/Rentals";
 
 
  
@@ -20,13 +21,14 @@ const App = () => {
   return ( 
     <div className="App">
       <Navbar/>
-      <Banner />
+      {/* <Banner />
       <About />
       <Value />
       <Services />
       <FeaturedProperties />
       <Contact />
-      <Testimonials />
+      <Testimonials /> */}
+      <Rentals />
       <Footer />
     </div>
    );
