@@ -4,15 +4,15 @@ import bg from "../../assets/testimonyBackground.jpg"
 
 
 
-const PageBanner = () => {
+const PageBanner = ({img, title, cta}) => {
   return ( 
     <div className="pageBanner">
       <div className="pageBannerImage">
-        <img src={bg} alt="" />
+        <img src={img} alt="" />
       </div>
       <div className="pageBannerTitle">
-        <span>{"Rental Properties"}</span>
-        <h3>Have a wonderful experience at our shortlet</h3>
+        <span>{title}</span>
+        <h3>{cta}</h3>
       </div>
     </div>
    );
