@@ -1,0 +1,49 @@
+.vidPitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 70px 50px 20px;
+}
+
+.vid {
+  flex: 1.5;
+}
+
+.vid > h4 {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: .5rem 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.pitch {
+  flex: 1;
+}
+
+.pitch > h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: .5rem 0;
+  line-height: 1.2;
+}
+
+.pitch > p {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1.5rem 0;
+  line-height: 1.5;
+}
+
+.pitch > ul {
+  padding: 0.8rem 0;
+}
+
+.pitch > ul > li {
+  text-decoration: none;
+  padding: .5rem 0;
+  line-height: 1.5;
+  display: flex;
+}
