@@ -33,7 +33,7 @@
 }
 
 .contactInfo > h2 {
-  color: #111;
+  color: var(--textColor);
   font-size: 1.5rem;
   text-transform: capitalize;
   font-weight: 400;
@@ -106,7 +106,7 @@
 }
 
 .formHeader {
-  color: #111;
+  color: var(--textColor);
   font-size: 1.4rem;
   text-transform: capitalize;
   font-weight: 400;

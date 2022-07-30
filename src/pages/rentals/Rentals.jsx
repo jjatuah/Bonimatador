@@ -5,7 +5,9 @@ import backgroundImg from "../../assets/testimonyBackground.jpg";
 import Video from '../../components/video/Video';
 import vid from "../../assets/Vid 3.mp4";
 import poster from "../../assets/About2.jpg";
+import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
+import PhotoBox from '../../components/photobox/PhotoBox';
 
 const Rentals = () => {
   return ( 
@@ -27,6 +29,25 @@ const Rentals = () => {
             <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Guide to ease your back in the gym</li>
             <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}The mental health benefits of exercise</li>
           </ul>
+        </div>
+      </div>
+
+      <div className="gallery">
+        <h2>Gallery</h2>
+        <p>images from our shortlet</p>
+
+        <div className="photoBoxContainer">
+          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+
+          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+
+          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+
+          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+
+          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+
+          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
         </div>
       </div>
     </div>

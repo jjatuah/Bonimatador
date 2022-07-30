@@ -21,13 +21,13 @@ const App = () => {
   return ( 
     <div className="App">
       <Navbar/>
-      {/* <Banner />
+      <Banner />
       <About />
       <Value />
       <Services />
       <FeaturedProperties />
       <Contact />
-      <Testimonials /> */}
+      <Testimonials />
       <Rentals />
       <Footer />
     </div>

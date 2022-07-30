@@ -14,12 +14,12 @@
 }
 
 .alt {
-  color: var(--altColor);
+  color: var(--bgColor2);
   font-size: 24px;
 }
 
 .logo {
-  color: var(--textColor);
+  color: var(--altColor);
   font-size: 24px;
   text-decoration: none;
   font-weight: 700;

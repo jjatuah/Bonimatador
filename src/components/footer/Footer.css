@@ -22,7 +22,7 @@
   color: #111;
   margin: 2px 0;
   padding: 3px 0;
-  color: #111;
+  color: var(--textColor);
   /* background: hsl(225, 22%, 93%);
   border-radius: 10px; */
 }
@@ -39,7 +39,7 @@
   text-decoration: none;
   margin: 2px 0;
   padding: 3px 0px;
-  color: #111;
+  color: var(--textColor);
   /* background: hsl(225, 22%, 93%);
   border-radius: 10px; */
 }
@@ -51,4 +51,9 @@
 .copyright {
   margin-top: 35px;
   text-align: center;
+  color: var(--textColor);
+}
+
+.copyright > p {
+  margin-top: 10px;
 }

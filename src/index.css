@@ -8,11 +8,17 @@
   font-family: "Manrope", sans-serif;
 }
 
+body {
+  background-color: #041522;
+}
+
 
 :root {
 
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+
+  /* #ff5421; */
 
   /* --color-bg: #040c18;
   --color-footer: #031b34;
@@ -24,4 +30,5 @@
   --textColor: #fff;
   --altColor: #2196f3;
   --bgColor: #041522;
+  --bgColor2: #ff5421;
 }

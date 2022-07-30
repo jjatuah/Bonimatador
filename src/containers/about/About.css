@@ -25,6 +25,7 @@
   font-weight: 400;
   padding: .5rem 0;
   line-height: 1.2;
+  color: var(--textColor);
 }
 
 .aboutText > p {
@@ -32,6 +33,7 @@
   text-align: justify;
   padding: 1.5rem 0;
   line-height: 1.5;
+  color: var(--textColor);
 }
 
 .aboutText > ul {
@@ -43,6 +45,7 @@
   padding: .5rem 0;
   line-height: 1.5;
   display: flex;
+  color: var(--textColor);
 }
 
 .aboutImage {
