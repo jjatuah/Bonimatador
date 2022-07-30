@@ -1,6 +1,7 @@
 import { Close, Menu } from '@material-ui/icons';
 import React, { useState } from 'react';
 import "./Navbar.css";
+import logo from "../../assets/improvedCrop2.jpg"
 
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
 
 
   const changeBackground = () => {
-    if(window.scrollY > 100) {
+    if(window.scrollY > 80) {
       setNavBar(true)
     } else {
       setNavBar(false);
@@ -21,7 +22,9 @@ const Navbar = () => {
 
   return ( 
     <div className={ navbar ? "navbar active" : "navbar"}>
-      <a href="#" className='logo'><span className='alt'>Boni</span>matador</a>
+      <a href="#" className='logo'>
+        <img src={logo} alt="logo" />
+      </a>
 
       <ul className="navLinks">
         <li><a href="#footer">Home</a></li>

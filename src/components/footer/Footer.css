@@ -5,9 +5,20 @@
 
 .footerLinks {
   display: flex;
-  justify-content: space-around;
-  padding: 0 15git 0px;
-  gap: 50px;
+  justify-content: space-between;
+}
+
+.footerImage {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  padding-top: 0;
+}
+
+.footerImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .pageLinks > h2 {

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 import { Facebook, Instagram, MailOutline, MessageRounded, Phone, Pinterest, Room, Twitter, WhatsApp,  ArrowRight } from '@material-ui/icons';
+import logo from "../../assets/logo.jpg"
 
 
 
@@ -8,6 +9,11 @@ const Footer = () => {
   return ( 
     <div className="footer">
       <div className="footerLinks">
+
+        <div className="footerImage">
+          <img src={logo} alt="logo" />
+        </div>
+
         <div className="pageLinks">
           <h2>Links</h2>
           <div className="linksContainer">
