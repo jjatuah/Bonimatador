@@ -1,0 +1,83 @@
+.vidPitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 70px 50px 20px;
+}
+
+.vid {
+  flex: 1.5;
+}
+
+.vid > h4 {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: .5rem 0;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--textColor);
+}
+
+.pitch {
+  flex: 1;
+}
+
+.pitch > h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: .5rem 0;
+  line-height: 1.2;
+  color: var(--altColor);
+}
+
+.pitch > p {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1.5rem 0;
+  line-height: 1.5;
+  color: var(--textColor);
+}
+
+.pitch > ul {
+  padding: 0.8rem 0;
+}
+
+.pitch > ul > li {
+  text-decoration: none;
+  padding: .5rem 0;
+  line-height: 1.5;
+  display: flex;
+  color: var(--textColor);
+}
+
+.gallery {
+  padding: 50px;
+} 
+
+.gallery > h2, .gallery > p {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.gallery > h2 {
+  font-size: 1.7rem;
+  color: var(--altColor);
+  font-weight: 700;
+  padding: 0.5rem 0;
+  line-height: 1.2;
+}
+
+.gallery > p {
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  line-height: 1.2;
+  color: var(--textColor);
+}
+
+.photoBoxContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}

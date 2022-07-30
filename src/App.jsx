@@ -13,6 +13,7 @@ import Test2 from "./test2";
 import Testimonials from "./containers/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
 import Rentals from "./pages/rentals/Rentals";
+import RealEstate from "./pages/real estate/RealEstate";
 
 
  
@@ -29,6 +30,7 @@ const App = () => {
       <Contact />
       <Testimonials />
       <Rentals />
+      <RealEstate />
       <Footer />
     </div>
    );
