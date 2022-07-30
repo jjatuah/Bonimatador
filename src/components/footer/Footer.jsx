@@ -29,12 +29,12 @@ const Footer = () => {
         <div className="contactLinks">
           <h2>Contacts</h2>
           <div className="contactsContainer">
-            <a href="#">{<Instagram style={{color: "#2196f3"}}  />}Instagram</a>
-            <a href="#">{<Facebook style={{color: "#2196f3"}} />}Facebook</a>
-            <a href="#">{<WhatsApp style={{color: "#2196f3"}} />}WhatsApp</a>
-            <a href="#">{<Phone style={{color: "#2196f3"}} />}Phone</a>
-            <a href="#">{<MailOutline style={{color: "#2196f3"}} />}Email</a>
-            <a href="#">{<MessageRounded style={{color: "#2196f3"}} />}Send a Message</a>
+            <a href="#">{<Instagram style={{color: "#2196f3", marginRight: "5px"}}  />}Instagram</a>
+            <a href="#">{<Facebook style={{color: "#2196f3", marginRight: "5px"}} />}Facebook</a>
+            <a href="#">{<WhatsApp style={{color: "#2196f3", marginRight: "5px"}} />}WhatsApp</a>
+            <a href="#">{<Phone style={{color: "#2196f3", marginRight: "5px"}} />}Phone</a>
+            <a href="#">{<MailOutline style={{color: "#2196f3", marginRight: "5px"}} />}Email</a>
+            <a href="#">{<MessageRounded style={{color: "#2196f3", marginRight: "5px"}} />}Send a Message</a>
           </div>
         </div>
       </div>
