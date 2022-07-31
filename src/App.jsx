@@ -15,6 +15,8 @@ import Footer from "./components/footer/Footer";
 import Rentals from "./pages/rentals/Rentals";
 import RealEstate from "./pages/real estate/RealEstate";
 import Supply from "./pages/supply/Supply";
+import Homepage from "./pages/homepage/Homepage";
+import { Routes, Route} from "react-router-dom";
 
 
  
@@ -23,6 +25,12 @@ const App = () => {
   return ( 
     <div className="App">
       <Navbar/>
+      <Routes>
+        <Route path="/"  element = {<Homepage />} />
+        <Route path="/"  element = {<RealEstate />} />
+        <Route path="/"  element = {<Rentals />} />
+        <Route path="/"  element = {<Supply />} />
+      </Routes>
       <Banner />
       <About />
       <Value />
@@ -30,9 +38,9 @@ const App = () => {
       <FeaturedProperties />
       <Contact />
       <Testimonials />
-      <Rentals />
-      <RealEstate />
-      <Supply />
+      
+      
+      
       <Footer />
     </div>
    );

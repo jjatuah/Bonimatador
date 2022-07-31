@@ -14,16 +14,16 @@ import PhotoBox from '../../components/photobox/PhotoBox';
 const Supply = () => {
   return ( 
     <div className="supply">
-      <PageBanner img={backgroundImg} title={"Rental Properties"} cta={"Have a wonderful experience at our shortlet"} />
+      <PageBanner img={backgroundImg} title={"General Contract and supply"} cta={"Give us a time and place and we'll surely deliver"} />
       
       <div className="vidPitch">
         <div className="vid">
            <Video poster={poster} video={vid} type={"video/mp4"} />
-           <h4>Let's Walk you through our shortlet with this video</h4>
+           <h4>Delectus quae inventore molestiae accusamus</h4>
         </div>
 
         <div className="pitch">
-          <h3>Why our shortlets are the best ?</h3>
+          <h3>no matter what, we always deliver</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit?</p>
           <ul>
             <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}How to support your Immune system</li>
@@ -36,7 +36,7 @@ const Supply = () => {
 
       <div className="gallery">
         <h2>Gallery</h2>
-        <p>images from our shortlet</p>
+        <p>Delectus quae inventore molestiae accusamus</p>
 
         <div className="photoBoxContainer">
           <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
