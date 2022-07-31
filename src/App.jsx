@@ -14,6 +14,7 @@ import Testimonials from "./containers/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
 import Rentals from "./pages/rentals/Rentals";
 import RealEstate from "./pages/real estate/RealEstate";
+import Supply from "./pages/supply/Supply";
 
 
  
@@ -31,6 +32,7 @@ const App = () => {
       <Testimonials />
       <Rentals />
       <RealEstate />
+      <Supply />
       <Footer />
     </div>
    );
