@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Service.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -11,7 +12,7 @@ const Service = ({img, title, path}) => {
       </div>
       <div className="serviceDesc">
         <h4>{title}</h4>
-        <a href={path}>view more</a>
+        <Link to={path}>view more</Link>
       </div>
     </div>
    );

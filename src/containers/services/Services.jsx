@@ -15,9 +15,9 @@ const Services = () => {
         <p>We offer the services below</p>
       </div>
       <div className="servicesContainer">
-        <Service img={aboutImage} title={"Real Estate"} path={"#"} />
-        <Service img={service2} title={"Rental Appartments"} path={"#"} />
-        <Service img={service3} title={"General Contract And Supply"} path={"#"} />
+        <Service img={aboutImage} title={"Real Estate"} path={"/realestate"} />
+        <Service img={service2} title={"Rental Appartments"} path={"/rentals"} />
+        <Service img={service3} title={"General Contract And Supply"} path={"/supply"} />
       </div>
     </div>
    );

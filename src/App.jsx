@@ -26,21 +26,11 @@ const App = () => {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path="/"  element = {<Homepage />} />
-        <Route path="/"  element = {<RealEstate />} />
-        <Route path="/"  element = {<Rentals />} />
-        <Route path="/"  element = {<Supply />} />
+        <Route path="/" exact element = {<Homepage />} />
+        <Route path="/realestate"  element = {<RealEstate />} />
+        <Route path="/rentals"  element = {<Rentals />} />
+        <Route path="/supply"  element = {<Supply />} />
       </Routes>
-      <Banner />
-      <About />
-      <Value />
-      <Services />
-      <FeaturedProperties />
-      <Contact />
-      <Testimonials />
-      
-      
-      
       <Footer />
     </div>
    );
