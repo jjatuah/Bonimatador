@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./PagesNavbar.css";
 import { Close, Menu } from '@material-ui/icons';
 import logo from "../../assets/improvedCrop2.jpg";
@@ -29,11 +29,9 @@ const PagesNavbar = () => {
 
       <ul className="navLinks">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/value">Benefits</Link></li>
-        <li><Link to="#about">Our Services</Link></li>
-        <li><Link to="#course">Properties</Link></li>
-        <li><Link to="#plan">Testimonials</Link></li>
-        <li><Link to="#team">Contact us</Link></li>
+        <li><Link to="/rentals">Rental Shortlet</Link></li>
+        <li><Link to="/realestate">Real Estate</Link></li>
+        <li><Link to="/supply">Contract & Supply</Link></li>
       </ul>
 
       <div className="menu">
@@ -55,13 +53,10 @@ const PagesNavbar = () => {
         {
           menuStatus && (
             <ul className="mobileNavLinks"  >
-              <li><a href="#footer">Home</a></li>
-              <li><a href="#">Benefits</a></li>
-              <li><a href="#about">Our Services</a></li>
-              <li><a href="#course">Properties</a></li>
-              <li><a href="#plan">Testimonials</a></li>
-              <li><a href="#team">Contact us</a></li>
-              <li><a href="#blog">Blog</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/rentals">Rental Shortlet</Link></li>
+              <li><Link to="/realestate">Real Estate</Link></li>
+              <li><Link to="/supply">Contract & Supply</Link></li>
             </ul>
           )
         }

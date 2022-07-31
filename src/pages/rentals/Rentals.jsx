@@ -8,10 +8,13 @@ import poster from "../../assets/About2.jpg";
 import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
+import PagesNavbar from '../../components/pages navbar/PagesNavbar';
+
 
 const Rentals = () => {
   return ( 
     <div className="rentals">
+      <PagesNavbar />
       <PageBanner img={backgroundImg} title={"Rental Properties"} cta={"Have a wonderful experience at our shortlet"} />
       
       <div className="vidPitch">

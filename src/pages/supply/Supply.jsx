@@ -8,12 +8,14 @@ import poster from "../../assets/About2.jpg";
 import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
+import PagesNavbar from '../../components/pages navbar/PagesNavbar';
 
 
 
 const Supply = () => {
   return ( 
     <div className="supply">
+      <PagesNavbar />
       <PageBanner img={backgroundImg} title={"General Contract and supply"} cta={"Give us a time and place and we'll surely deliver"} />
       
       <div className="vidPitch">

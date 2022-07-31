@@ -1,6 +1,6 @@
-import { Close, Menu } from '@material-ui/icons';
 import React, { useState } from 'react';
 import "./Navbar.css";
+import { Close, Menu } from '@material-ui/icons';
 import logo from "../../assets/improvedCrop2.jpg";
 import { Link } from "react-router-dom";
 

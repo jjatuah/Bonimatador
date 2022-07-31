@@ -24,11 +24,11 @@ import { Routes, Route} from "react-router-dom";
 const App = () => {
   return ( 
     <div className="App">
-      <Navbar/>
       <Routes>
         <Route path="/" exact element = {<Homepage />} />
         <Route path="/realestate"  element = {<RealEstate />} />
         <Route path="/rentals"  element = {<Rentals />} />
+        <Route path="/supply"  element = {<Supply />} />
       </Routes>
       <Footer />
     </div>
