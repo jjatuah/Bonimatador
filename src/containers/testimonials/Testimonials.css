@@ -1,6 +1,7 @@
 .testimonials {
   position: relative;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .testimonialsbackground {
