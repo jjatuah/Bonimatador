@@ -21,7 +21,7 @@ const Value = () => {
 
 
   return ( 
-    <div className="value">
+    <div className="value" id='value'>
       <div className="valueContainer">
         <div className="valueImage">
           <img src={valueImage} alt="" />

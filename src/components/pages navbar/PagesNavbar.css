@@ -1,0 +1,144 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 100%;   
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar.active {
+  background: var(--bgColor);
+}
+
+.alt {
+  color: var(--bgColor2);
+  font-size: 24px;
+}
+
+/* .logo {
+  color: var(--altColor);
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+} */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 200px;
+}
+
+.logo > img {
+  width: 700%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLinks > li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navLinks > li > a {
+  font-size: 16px;
+  margin: 0 15px;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.navLinks > li > a:hover {
+  color: var(--altColor);
+}
+
+.menu {
+  display: none;
+}
+
+.mobileNavLinks {
+  background: var(--orange);
+  border-radius: 5px;
+  padding: 20px 20px;
+  width: 20vw;
+}
+
+.closeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mobileNavLinks > li { 
+  border-bottom: 1px solid #fff;
+  padding: 8px 0;
+  list-style: none;
+}
+
+.mobileNavLinks > li > a:hover {
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.mobileNavLinks > li > a {
+  color: var(--white);
+  text-decoration: none;
+  padding: inherit;
+  color: var(--textColor);
+}
+
+/* Media queries */
+@media only screen and  (max-width: 991px) {
+  .logo, .alt, .navLinks > li > a  {
+    font-size: 86%;
+  }
+}
+
+
+/* Bring in a responsive design here */
+@media only screen and  (max-width: 820px) {
+  .navLinks  {
+    display: none;
+  }
+
+  .navbar {
+    padding-bottom: 15px;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
+
+@media only screen and  (max-width: 700px) {
+  .mobileNavLinks  {
+    font-size: 86%;
+    width: 30vw;
+  }
+}
+
+@media only screen and  (max-width: 400px) {
+  .mobileNavLinks  {
+    font-size: 75%;
+    width: 40vw;
+  }
+}
+
+@media only screen and  (max-width: 280px) {
+  .mobileNavLinks  {
+    font-size: 70%;
+    width: 50vw;
+  }
+}

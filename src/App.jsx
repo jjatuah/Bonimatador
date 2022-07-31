@@ -29,7 +29,6 @@ const App = () => {
         <Route path="/" exact element = {<Homepage />} />
         <Route path="/realestate"  element = {<RealEstate />} />
         <Route path="/rentals"  element = {<Rentals />} />
-        <Route path="/supply"  element = {<Supply />} />
       </Routes>
       <Footer />
     </div>
