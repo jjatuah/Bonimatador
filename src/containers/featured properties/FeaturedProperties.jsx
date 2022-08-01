@@ -19,7 +19,7 @@ import "swiper/swiper.min.css";
 
 const FeaturedProperties = () => {
   return ( 
-    <div className="featuredProperties">
+    <div className="featuredProperties" id='properties'>
       <h2>Our featured properties</h2>
       <div className="featuredPropertyContainer">
         <Swiper 

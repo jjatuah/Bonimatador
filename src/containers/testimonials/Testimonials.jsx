@@ -56,7 +56,7 @@ const Testimonials = () => {
   }
 
   return ( 
-    <div className="testimonials">
+    <div className="testimonials" id='testimonials'>
       <div className="testimonialsbackground">
         <img src={bgImage} alt="" />
       </div>

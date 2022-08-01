@@ -9,7 +9,7 @@ import aboutImage from "../../assets/About2.jpg";
 
 const Services = () => {
   return ( 
-    <div className="services">
+    <div className="services" id='services'>
       <div className="servicesHeader">
         <h2>Our Services</h2>
         <p>We offer the services below</p>

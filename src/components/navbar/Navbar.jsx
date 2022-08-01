@@ -28,13 +28,13 @@ const Navbar = () => {
       </a>
 
       <ul className="navLinks">
-        <li><a href="#footer">Home</a></li>
-        <li><a href="#">Benefits</a></li>
-        <li><a href="#about">Our Services</a></li>
-        <li><a href="#course">Properties</a></li>
-        <li><a href="#plan">Testimonials</a></li>
-        <li><a href="#team">Contact us</a></li>
-        <li><a href="#blog">Blog</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#value">Benefits</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact us</a></li>
       </ul>
 
       <div className="menu">
@@ -56,13 +56,13 @@ const Navbar = () => {
         {
           menuStatus && (
             <ul className="mobileNavLinks"  >
-              <li><a href="#footer">Home</a></li>
-              <li><a href="#">Benefits</a></li>
-              <li><a href="#about">Our Services</a></li>
-              <li><a href="#course">Properties</a></li>
-              <li><a href="#plan">Testimonials</a></li>
-              <li><a href="#team">Contact us</a></li>
-              <li><a href="#blog">Blog</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#value">Benefits</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#properties">Properties</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact us</a></li>
             </ul>
           )
         }

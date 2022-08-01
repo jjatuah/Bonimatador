@@ -7,7 +7,7 @@ import { CheckBoxOutlined } from '@material-ui/icons';
 
 const About = () => {
   return ( 
-    <div className="about">
+    <div className="about" id='about'>
       <div className="aboutText">
         <h2>about us</h2>
         <h3>Bringing modern real estate solutions to nigerians</h3>
