@@ -1,5 +1,5 @@
 .value {
-  padding: 0 50px;
+  padding: 102px 40px 0;
 }
 
 .valueContainer {
@@ -9,12 +9,13 @@
 
 .valueImage {
   overflow: hidden;
-  inset: 0;
+  /* inset: 0; */
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex: 1.5;
-  padding: 50px;
+  padding: 20px 15px 0;
 }
 
 .valueImage > img {
@@ -66,7 +67,7 @@
   background-color: #fff;
   border: 2px solid hsl(228, 12%, 75%);
   border-radius: .5rem;
-  padding: 0.818rem;
+  padding: 0.5rem;
 }
 
 .valueItemHeader {
@@ -112,4 +113,173 @@
   font-size: 14px;
   text-align: justify;
   padding: 0 35px 0 40px;
+}
+
+@media only screen and (max-width: 1091px) {
+  .valueContent {
+    flex: 1.25;
+  }
+
+  .valueTitle > h3, .valueTitle > h2 {
+    padding: .2rem 0;
+  }
+
+  .valueTitle > h3 {
+    font-size: 1.5em;
+  }
+
+  .valueTitle > h2 {
+    font-size: 1.35rem;
+  }
+
+  .valueImage {
+    padding: 5px 15px 0 0;
+  }
+
+  .valueTitleDesc {
+    font-size: .9rem;
+  }
+  
+  .valueItemHeader > h3 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .valueImage {
+    flex: 2;
+  }
+
+  .valueItemDesc > p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .valueContainer {
+    flex-direction: column-reverse;
+  }
+
+  .valueContent {
+    padding: 0 180px;
+  }
+
+  .valueImage {
+    padding: 50px 100px 0;
+  }
+
+  .valueTitle > h3, .valueTitle > h2 {
+    padding: .4rem 0;
+  }
+
+  .valueItems {
+    padding: .5rem 0;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .valueContent {
+    padding: 0 120px;
+  }
+
+  .valueImage {
+    padding: 50px 70px 0;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .valueContent {
+    padding: 0 80px;
+  }
+
+  .valueImage {
+    padding: 50px 50px 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .valueContent {
+    padding: 0 40px;
+  }
+
+  .valueImage {
+    padding: 35px 35px 0;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .valueContent {
+    padding: 0 20px;
+  }
+
+  .valueImage {
+    padding: 35px 15px 0;
+  }
+
+  .valueTitle > h3 {
+    font-size: 1.2rem;
+  }
+
+  .valueTitle > h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .value {
+    padding: 102px 20px 0;
+  }
+
+  .valueItemDesc > p {
+    font-size: 12px;
+  }
+
+  .valueTitleDesc {
+    font-size: .8rem;
+  }
+
+  .valueItemHeader > h3 {
+    font-size: .85rem;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .valueContent {
+    padding: 0 0px;
+  }
+
+  .valueImage {
+    padding: 35px 0px 0;
+  }
+
+  .valueTitle > h3 {
+    font-size: 1.1rem;
+  }
+
+  .valueTitle > h2 {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .value {
+    padding: 102px 10px 0;
+  }
+
+  .valueItemDesc > p {
+    font-size: 11px;
+  }
+
+  .valueTitleDesc {
+    font-size: .7rem;
+  }
+
+  .valueItemHeader > h3 {
+    font-size: .74rem;
+  }
 }
