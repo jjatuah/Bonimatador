@@ -70,7 +70,7 @@ const Banner = () => {
                       <img className='bannerImage' src={slide.image} alt="Real Estate" />
                       <div className="bannerContent">
                         <h1>Let's help you make your dream <br/> home a reality</h1>
-                        <a href="#">About Us</a>
+                        <a href="#about">About Us</a>
                       </div>
                     </div>
                   )

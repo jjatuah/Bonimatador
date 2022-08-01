@@ -10,6 +10,7 @@ import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
 import PagesNavbar from '../../components/pages navbar/PagesNavbar';
 import { useLocation } from "react-router";
+import Footer from '../../components/footer/Footer';
 
 
 const Rentals = () => {

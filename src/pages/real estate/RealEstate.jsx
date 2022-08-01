@@ -10,6 +10,7 @@ import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
 import PagesNavbar from '../../components/pages navbar/PagesNavbar';
 import { useLocation } from "react-router";
+import Footer from '../../components/footer/Footer';
 
 
 const RealEstate = () => {
@@ -18,7 +19,7 @@ const RealEstate = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
-  
+
   return ( 
     <div className="RealEstate">
       <PagesNavbar />

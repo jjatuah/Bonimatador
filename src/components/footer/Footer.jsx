@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Footer.css";
 import { Facebook, Instagram, MailOutline, MessageRounded, Phone, Pinterest, Room, Twitter, WhatsApp,  ArrowRight } from '@material-ui/icons';
-import logo from "../../assets/logo.jpg"
+import logo from "../../assets/logo.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -17,12 +18,10 @@ const Footer = () => {
         <div className="pageLinks">
           <h2>Links</h2>
           <div className="linksContainer">
-            <a href="#">{<ArrowRight style={{color: "#2196f3"}} />}Home</a>
-            <a href="#">{<ArrowRight style={{color: "#2196f3"}} />}About Us</a>
-            <a href="#">{<ArrowRight style={{color: "#2196f3"}} />}Our Value</a>
-            <a href="#">{<ArrowRight style={{color: "#2196f3"}} />}Services</a>
-            <a href="#">{<ArrowRight style={{color: "#2196f3"}} />}Properties</a>
-            <a href="#">{<ArrowRight style={{color: "#2196f3"}} />}Testimonials</a>
+            <Link to="/">{<ArrowRight style={{color: "#2196f3"}} />}Home</Link>
+            <Link to="/rentals">{<ArrowRight style={{color: "#2196f3"}} />}Rental Shortlet</Link>
+            <Link to="/realestate">{<ArrowRight style={{color: "#2196f3"}} />}Real Estate</Link>
+            <Link to="/supply">{<ArrowRight style={{color: "#2196f3"}} />}Contract & Supply</Link>
           </div>
         </div>
 
