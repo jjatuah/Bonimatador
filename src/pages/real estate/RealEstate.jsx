@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./RealEstate.css"
 import PageBanner from '../../components/page_banner/PageBanner';
 import backgroundImg from "../../assets/testimonyBackground.jpg";
@@ -9,9 +9,16 @@ import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
 import PagesNavbar from '../../components/pages navbar/PagesNavbar';
+import { useLocation } from "react-router";
 
 
 const RealEstate = () => {
+
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+  
   return ( 
     <div className="RealEstate">
       <PagesNavbar />
