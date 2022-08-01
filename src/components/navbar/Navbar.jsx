@@ -22,11 +22,11 @@ const Navbar = () => {
 
   return ( 
     <div className={ navbar ? "navbar active" : "navbar"}>
-      <a href="#" className='logo'>
+      <a href="#" className='logoImg'>
         <img src={logo} alt="logo" />
       </a>
 
-      <ul className="navLinks">
+      <ul className="navLink">
         <li><a href="#">Home</a></li>
         <li><a href="#value">Benefits</a></li>
         <li><a href="#about">About Us</a></li>

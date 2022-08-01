@@ -23,7 +23,7 @@ const PagesNavbar = () => {
 
   return ( 
     <div className={ navbar ? "navbar active" : "navbar"}>
-      <a href="#" className='logo'>
+      <a href="#" className='logoImg'>
         <img src={logo} alt="logo" />
       </a>
 
