@@ -73,6 +73,7 @@ const Testimonials = () => {
                         <img src={slide.image} alt="" />
                         <div className="testimonyContent">
                           <p>{slide.testimony}</p>
+                          <img src={slide.image} alt="" />
                           <h4>{slide.name}</h4>
                           <h5 >{slide.position}</h5>
                         </div>

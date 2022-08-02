@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   scroll-behavior: smooth;
+  padding: 100px 0 0;
 }
 
 .testimonialsbackground {
@@ -64,6 +65,11 @@
 .testimonyContent > p {
   font-size: 1.2em;
   font-style: italic;
+  text-align: justify;
+}
+
+.testimonyContent > img {
+  display: none;
 }
 
 .testimonyContent > h4 {
@@ -101,4 +107,104 @@
 
 .left:hover, .right:hover {
   color: var(--altColor);
+}
+
+@media only screen and  (max-width: 1050px) {
+  .testimonyContainer > h2 {
+    font-size: 1.4rem;
+  }
+
+  .testimonyContent > p {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and  (max-width: 950px) {
+  .testimonyContainer > h2 {
+    font-size: 1.3rem;
+  }
+
+  .testimonyContent > p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and  (max-width: 800px) {
+  .testimonyContainer > h2 {
+    font-size: 1.2rem;
+  }
+
+  .testimonyContent > p {
+    font-size: .9em;
+  }
+
+  .testimonyContent > h4 {
+    font-size: .9rem;
+  }
+  
+  .testimonyContent > h5 {
+    font-size: .8em;
+  }
+  
+}
+
+@media only screen and  (max-width: 700px) {
+  .testimonyContainer > h2 {
+    font-size: 1.1rem;
+  }
+
+  .testimonyContent > p {
+    font-size: .8em;
+  }  
+}
+
+@media only screen and  (max-width: 575px) {
+  .testimony {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .testimonyContent {
+    margin-left: 20px;
+  }
+
+  .testimony > img {
+    display: none;
+  }
+
+  .testimonyContent > img {
+    display: block;
+    max-width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+
+  .testimonyContent:hover > img {
+    transform: scale(1.1);
+  }
+
+  .testimonyContent > h4 {
+    margin-top: 10px;
+    font-size: .77rem;
+  }
+  
+  .testimonyContent > h5 {
+    font-size: .7em;
+  }
+}
+
+@media only screen and  (max-width: 375px) {
+  .testimonyContainer > h2 {
+    font-size: 1rem;
+  }
+
+  .testimonyContent > p {
+    font-size: .77em;
+    line-height: 1.25;
+  }  
+
+  .testimonyContent {
+    margin-left: 5px;
+  }
 }
