@@ -68,3 +68,35 @@
   transition: .5s;
   border: 1px solid var(--altColor);
 }
+
+@media only screen and  (max-width: 1050px) {
+  .serviceDesc > h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and  (max-width: 800px) {
+  .serviceDesc > a{
+    padding: 8.5px;
+  }
+}
+
+@media only screen and  (max-width: 650px) {
+  .serviceImageContainer {
+    height: 420px;
+  }
+}
+
+@media only screen and  (max-width: 500px) {
+  .serviceDesc > a{
+    font-size: .9rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and  (max-width: 350px) {
+  .serviceDesc > h4 {
+    font-size: 18px;
+  }
+}
