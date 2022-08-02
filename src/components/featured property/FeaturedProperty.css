@@ -141,3 +141,48 @@
   background: var(--textColor);
   color: var(--altColor);
 }
+
+@media only screen and  (max-width: 950px) {
+  .propertyDesc > h3 {
+    font-size: 1.3rem;
+  }
+
+  .propertyDesc > p {
+    font-size: .8rem;
+  }
+
+  .price_contact > h3 {
+    font-size: 1.2rem;
+  }
+
+  .propertyButtons > a {
+    font-size: .75rem;
+  }
+}
+
+
+@media only screen and  (max-width: 400px) {
+  .propertyDesc > h3 {
+    font-size: 1.2rem;
+  }
+
+  .propertyDesc > p {
+    font-size: .75rem;
+  }
+
+  .price_contact > h3 {
+    font-size: 1.1rem;
+  }
+}
+
+
+@media only screen and  (max-width: 330px) {
+  .propertyDesc > h3 {
+    font-size: 1.1rem;
+  }
+
+  .price_contact > h3 {
+    font-size: 1rem;
+  }
+}
+
