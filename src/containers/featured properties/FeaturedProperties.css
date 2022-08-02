@@ -1,5 +1,5 @@
 .featuredProperties {
-  padding: 50px;
+  padding: 100px 200px 0;
 }
 
 .featuredProperties > h2 {
@@ -12,11 +12,97 @@
   text-align: center;
 }
 
-/* 
+
 .featuredPropertyContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
   place-items: center;
   place-self: center;
-} */
+}
+
+@media only screen and  (max-width: 1100px) {
+  .featuredProperties {
+    padding: 100px 120px 0;
+  }
+}
+
+@media only screen and  (max-width: 950px) {
+  .featuredProperties {
+    padding: 100px 100px 0;
+  }
+}
+
+@media only screen and  (max-width: 880px) {
+  .featuredProperties {
+    padding: 100px 70px 0;
+  }
+
+  .featuredPropertyContainer {
+    grid-gap: 20px;
+  }
+
+  .featuredProperties > h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and  (max-width: 780px) {
+  .featuredProperties {
+    padding: 100px 40px 0;
+  }
+}
+
+@media only screen and  (max-width: 700px) {
+  .featuredProperties {
+    padding: 100px 20px 0;
+  }
+}
+
+@media only screen and  (max-width: 650px) {
+  .featuredPropertyContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .featuredProperties {
+    padding: 100px 115px 0;
+  }
+
+  .featuredProperties > h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and  (max-width: 575px) {
+  .featuredProperties {
+    padding: 100px 90px 0;
+  }
+}
+
+@media only screen and  (max-width: 520px) {
+  .featuredProperties {
+    padding: 100px 50px 0;
+  }
+
+  .featuredProperties > h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and  (max-width: 450px) {
+  .featuredProperties {
+    padding: 100px 30px 0;
+  }
+}
+
+@media only screen and  (max-width: 375px) {
+  .featuredProperties {
+    padding: 100px 20px 0;
+  }
+}
+
+@media only screen and  (max-width: 350px) {
+  .featuredProperties {
+    padding: 100px 10px 0;
+  }
+}
