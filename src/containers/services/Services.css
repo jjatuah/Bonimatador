@@ -1,5 +1,5 @@
 .services {
-  padding: 50px;
+  padding: 100px 50px 0;
 }
 
 .servicesHeader {
@@ -26,4 +26,61 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+}
+
+@media only screen and  (max-width: 900px) {
+  .servicesHeader > h2 {
+    font-size: 1.5rem;
+  }
+
+  .servicesContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and  (max-width: 650px) {
+
+  .servicesHeader > h2 {
+    font-size: 1.4rem;
+  }
+
+  .servicesContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .services {
+    padding: 100px 100px 0;
+  }
+}
+
+@media only screen and  (max-width: 550px) {
+  .services {
+    padding: 100px 70px 0;
+  }
+}
+
+@media only screen and  (max-width: 500px) {
+  .servicesHeader > h2 {
+    font-size: 1.3rem;
+  }
+
+  .servicesHeader > p {
+    font-size: .9rem;
+  }
+
+  .services {
+    padding: 100px 50px 0;
+  }
+}
+
+@media only screen and  (max-width: 400px) {
+  .services {
+    padding: 100px 20px 0;
+  }
+}
+
+@media only screen and  (max-width: 330px) {
+  .services {
+    padding: 100px 10px 0;
+  }
 }
