@@ -25,3 +25,9 @@
   font-weight: 400;
   text-transform: capitalize;
 } 
+
+@media only screen and  (max-width: 400px) {
+  .photoDesc > h3 {
+    font-size: .7rem;
+  }
+}
