@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import "./RealEstate.css"
+// import "./RealEstate.css"
 import PageBanner from '../../components/page_banner/PageBanner';
 import backgroundImg from "../../assets/testimonyBackground.jpg";
 import Video from '../../components/video/Video';

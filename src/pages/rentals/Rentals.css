@@ -81,3 +81,134 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
 }
+
+@media only screen and  (max-width: 1120px) {
+  .pitch > h3 {
+    font-size: 1.5rem;
+    padding: .35rem 0;
+    line-height: 1.1;
+  }
+
+  .pitch > p {
+    padding: .5rem 0;
+    font-size: .95rem;
+  }
+
+  .pitch > ul {
+    padding: .5rem 0;
+  }
+
+  .pitch > ul > li {
+    padding: .25rem 0;
+    line-height: 1.5;
+    font-size: .95rem;
+  }
+}
+
+@media only screen and  (max-width: 1020px) {
+  .vidPitch {
+    padding: 50px 20px 50px 10px;
+  }
+}
+
+@media only screen and  (max-width: 950px) {
+  .vidPitch {
+    flex-direction: column-reverse;
+  }
+
+  .pitch {
+    padding: 0 80px 20px;
+  } 
+}
+
+
+@media only screen and  (max-width: 800px) {
+  .pitch {
+    padding: 0 60px 20px;
+  } 
+}
+
+@media only screen and  (max-width: 630px) {
+  .pitch {
+    padding: 0 45px 20px;
+  } 
+
+  .pitch > h3 {
+    font-size: 1.35rem;
+  }
+
+  .pitch > p {
+    font-size: .9rem;
+  }
+
+  .pitch > ul > li {
+    font-size: .9rem;
+  }
+
+  .vid > h4 {
+    font-size: .85rem;
+  }
+}
+
+@media only screen and  (max-width: 500px) {
+  .pitch {
+    padding: 0 30px 20px;
+  } 
+}
+
+@media only screen and  (max-width: 450px) {
+
+  .pitch > h3 {
+    font-size: 1.2rem;
+  }
+
+  .pitch > p {
+    font-size: .8rem;
+  }
+
+  .pitch > ul > li {
+    font-size: .8rem;
+  }
+
+  .vid > h4 {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and  (max-width: 400px) {
+  .pitch > h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and  (max-width: 375px) {
+  .pitch > h3 {
+    font-size: 1.1rem;
+  }
+
+  .pitch {
+    padding: 0 15px 20px;
+  } 
+}
+
+@media only screen and  (max-width: 340px) {
+  .pitch > h3 {
+    font-size: 1.05rem;
+  }
+
+  .pitch {
+    padding: 0 10px 20px;
+  } 
+
+  .pitch > p {
+    font-size: .75rem;
+  }
+
+  .pitch > ul > li {
+    font-size: .75rem;
+  }
+
+  .vid > h4 {
+    font-size: .75rem;
+  }
+}

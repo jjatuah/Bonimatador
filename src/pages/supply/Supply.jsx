@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import "./Supply.css";
+// import "./Supply.css";
 import PageBanner from '../../components/page_banner/PageBanner';
 import backgroundImg from "../../assets/testimonyBackground.jpg";
 import Video from '../../components/video/Video';
