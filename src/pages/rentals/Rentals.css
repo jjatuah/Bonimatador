@@ -109,6 +109,10 @@
   .vidPitch {
     padding: 50px 20px 50px 10px;
   }
+
+  .gallery > h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and  (max-width: 950px) {
@@ -121,6 +125,12 @@
   } 
 }
 
+@media only screen and  (max-width: 850px) {
+  .photoBoxContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 @media only screen and  (max-width: 800px) {
   .pitch {
@@ -129,6 +139,18 @@
 }
 
 @media only screen and  (max-width: 630px) {
+  .photoBoxContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery {
+    padding: 50px 80px;
+  }
+
+  .gallery > p {
+    font-size: .95rem;
+  }
+
   .pitch {
     padding: 0 45px 20px;
   } 
@@ -150,6 +172,17 @@
   }
 }
 
+
+@media only screen and  (max-width: 530px) {
+  .gallery {
+    padding: 50px 60px;
+  }
+
+  .gallery > h2 {
+    font-size: 1.4rem;
+  }
+}
+
 @media only screen and  (max-width: 500px) {
   .pitch {
     padding: 0 30px 20px;
@@ -157,6 +190,18 @@
 }
 
 @media only screen and  (max-width: 450px) {
+
+  .gallery {
+    padding: 50px 40px;
+  }
+
+  .gallery > h2 {
+    font-size: 1.3rem;
+  }
+
+  .gallery > p {
+    font-size: .9rem;
+  }
 
   .pitch > h3 {
     font-size: 1.2rem;
@@ -179,9 +224,26 @@
   .pitch > h3 {
     font-size: 1.1rem;
   }
+
+  .gallery {
+    padding: 50px 30px;
+  }
 }
 
 @media only screen and  (max-width: 375px) {
+
+  .gallery {
+    padding: 50px 20px;
+  }
+
+  .gallery > h2 {
+    font-size: 1.27rem;
+  }
+
+  .gallery > p {
+    font-size: .85rem;
+  }
+
   .pitch > h3 {
     font-size: 1.1rem;
   }
@@ -192,8 +254,12 @@
 }
 
 @media only screen and  (max-width: 340px) {
+  .gallery {
+    padding: 50px 10px;
+  }
+
   .pitch > h3 {
-    font-size: 1.05rem;
+    font-size: 1.0rem;
   }
 
   .pitch {
