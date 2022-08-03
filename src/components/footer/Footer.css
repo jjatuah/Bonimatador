@@ -1,5 +1,5 @@
 .footer {
-  padding: 50px 100px 20px;
+  padding: 100px 100px 20px;
   
 }
 
@@ -69,4 +69,81 @@
 
 .copyright > p {
   margin-top: 10px;
+}
+
+@media only screen and  (max-width: 1115px) {
+  .footer {
+    padding: 100px 50px 20px;
+    
+  } 
+}
+
+@media only screen and  (max-width: 1050px) {
+  .footer {
+    padding: 100px 10px 20px;   
+  } 
+
+  .pageLinks > h2, .contactLinks > h2 {
+    font-size: 1.1rem;
+  }
+
+  .linksContainer > a, .contactsContainer > a , .copyright > p{
+    font-size: .9rem;
+  }
+}
+
+@media only screen and  (max-width: 900px) {
+  .footer {
+    padding: 100px 0px 20px;
+  } 
+
+  .footerLinks {
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+@media only screen and  (max-width: 850px) {
+  .footerLinks {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  } 
+
+  .contactLinks, .pageLinks {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and  (max-width: 470px) {
+  .footerImage {
+    padding: 37px;
+    width: 410px;
+    /* height: 500px; */
+  }
+}
+
+
+@media only screen and  (max-width: 400px) {
+  .footerImage {
+    padding: 30px;
+    width: 350px;
+    /* height: 500px; */
+  }
+}
+
+@media only screen and  (max-width: 350px) {
+  .footerImage {
+    padding: 20px;
+    width: 300px;
+    /* height: 500px; */
+  }
+}
+
+@media only screen and  (max-width: 300px) {
+  .footerImage {
+    padding: 20px;
+    width: 250px;
+    /* height: 500px; */
+  }
 }
