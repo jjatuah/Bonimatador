@@ -1,6 +1,5 @@
 .contact {
-  padding: 50px;
-  /* background: var(--backColor); */
+  padding: 110px 50px 0;
 }
 
 .header {
@@ -166,6 +165,12 @@
 }
 
 
+@media only screen and  (max-width: 1050px) {
+  .contactInfo > h2 {
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 1001px) {
   .content {
     display: grid;
@@ -181,6 +186,10 @@
     width: 40%;
   }
 
+  .contactInfo > h2 {
+    width: 200px;
+  }
+
   .formBx {
     width: 100%;
   }
@@ -188,7 +197,19 @@
 
 @media screen and (max-width: 900px) {
   .contact {
-    padding: 30px;
+    padding: 110px 30px 0;
+  }
+
+  .header > h2 {
+    font-size: 1.5rem;
+  }
+
+  .header > p {
+    font-size: 1.2rem;
+  }
+
+  .contactInfo > h2, .formHeader {
+    font-size: 1.35rem;
   }
 
   .formBx form input {
@@ -213,9 +234,11 @@
 
   .contactInfo {
     width: 100%;
+    margin-top: 20px;
   }
 
-  .contactInfo > h3 {
+  .contactInfo > h2 {
+    margin-left: 30%;
     text-align: center;
   }
 
@@ -244,6 +267,20 @@
   }
 }
 
+@media only screen and  (max-width: 650px) {
+  .header > h2 {
+    font-size: 1.4rem;
+  }
+
+  .header > p {
+    font-size: 1.1rem;
+  }
+
+  .contactInfo > h2, .formHeader {
+    font-size: 1.25rem;
+  }
+}
+
 
 @media screen and (max-width: 550px) {
   .formBx form input::placeholder, .formBx form textarea::placeholder {
@@ -263,8 +300,28 @@
     width: 60%;
   }
 
+  .contactInfo > h2 {
+    margin-left: 25%;
+  }
+
   .box > a {
     font-size: 0.8rem;
+  }
+}
+
+@media only screen and  (max-width: 500px) {
+  .header > h2 {
+    font-size: 1.3rem;
+  }
+
+  .contactInfo > h2, .formHeader {
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and  (max-width: 480px) {
+  .contactInfo > h2 {
+    margin-left: 20%;
   }
 }
 
@@ -275,6 +332,12 @@
 
   .formBx form {
     width: 98%;
+  }
+}
+
+@media only screen and  (max-width: 400px) {
+  .contactInfo > h2 {
+    margin-left: 15%;
   }
 }
 
@@ -291,5 +354,53 @@
   .formBx form input[type="submit"] {
     font-size: 12px;
   }
+}
 
+@media only screen and  (max-width: 350px) {
+  .header > h2 {
+    font-size: 1.15rem;
+  }
+
+  .header > p {
+    font-size: 1rem;
+  }
+
+  .contactInfo > h2 {
+    margin-left: 5%;
+  }
+
+  .contactInfo > h2, .formHeader {
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and  (max-width: 300px) {
+
+  .formBx form textarea {
+    min-height: 100px;
+  }
+
+  .formBx form input, .formBx form textarea {
+    padding: 6px;
+  }
+
+  .formBx form input[type="submit"] {
+    border-radius: 5px;
+    max-width: 80px;
+  }
+}
+
+@media only screen and  (max-width: 280px) {
+
+  .formBx form {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and  (max-width: 270px) {
+
+  .formBx form {
+    width: 80%;
+  }
 }
