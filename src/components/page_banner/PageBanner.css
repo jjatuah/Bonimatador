@@ -51,4 +51,32 @@
   text-transform: capitalize;
   font-size: 22px;
   margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and  (max-width: 850px) {
+  .pageBannerTitle > span {
+    font-size: 16px;
+  }
+  
+  .pageBannerTitle > h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and  (max-width: 730px) {
+  .pageBannerTitle > h3 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and  (max-width: 600px) {
+
+  .pageBannerTitle > span {
+    font-size: 14px;
+  }
+
+  .pageBannerTitle > h3 {
+    font-size: 16px;
+  }
 }
