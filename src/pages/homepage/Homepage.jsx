@@ -8,6 +8,7 @@ import Services from '../../containers/services/Services';
 import FeaturedProperties from '../../containers/featured properties/FeaturedProperties';
 import Contact from '../../components/contact/Contact';
 import Testimonials from '../../containers/testimonials/Testimonials';
+import MembersContainer from '../../containers/members container/MembersContainer';
 import Footer from '../../components/footer/Footer';
 
 
@@ -21,6 +22,7 @@ const Homepage = () => {
       <Services />
       <FeaturedProperties />
       <Testimonials />
+      <MembersContainer />
       <Contact />
     </div>
    );
