@@ -9,7 +9,7 @@ import profileImg3 from "../../assets/workProfile6.jpg";
 
 const MembersContainer = () => {
   return ( 
-    <div className="membersContainer">
+    <div className="membersContainer" id='membersContainer'>
       <h2>Meet the team</h2>
       <div className="membersWrapper">
        <Member img={profileImg1} position={"C.E.O."} name={"Jasmine Turner"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"} text={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit"} />
