@@ -17,3 +17,73 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
+
+@media only screen and  (max-width: 1120px) {
+  .membersContainer {
+    padding: 100px 20px 0;
+  }
+}
+
+@media only screen and  (max-width: 880px) {
+  .membersContainer > h2 {  
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and  (max-width: 850px) {
+  .membersContainer {
+    padding: 100px 25px 0;
+  }
+
+  .membersWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and  (max-width: 650px) {
+  .membersContainer > h2 {  
+    font-size: 1.4rem;
+  }
+}
+
+
+@media only screen and  (max-width: 600px) {
+  .membersContainer {
+    padding: 100px 50px 0;
+  }
+
+  .membersWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and  (max-width: 520px) {
+  .membersContainer > h2 {  
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and  (max-width: 500px) {
+  .membersContainer {
+    padding: 100px 17.5px 0;
+  }
+}
+
+@media only screen and  (max-width: 330px) {
+  .membersContainer > h2 {  
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and  (max-width: 290px) {
+  .membersContainer > h2 {  
+    font-size: 1.1rem;
+  }
+}
+
+
+@media only screen and  (max-width: 280px) {
+  .membersContainer {
+    padding: 100px 13px 0;
+  }
+}

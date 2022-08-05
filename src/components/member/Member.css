@@ -74,4 +74,80 @@
   font-size: .82rem;
   text-align: justify;
   font-style: italic;
+  line-height: 1.3;
+}
+
+@media only screen and  (max-width: 1060px) {
+  .memberText > p {
+    font-size: .77rem;
+  }
+}
+
+@media only screen and  (max-width: 1000px) {
+  .memberImage {
+    height: 70%;
+  }
+}
+
+@media only screen and  (max-width: 850px) {
+  .memberImage {
+    height: 70%;
+  }
+
+  .memberText > p {
+    font-size: .82rem;
+  }
+}
+
+@media only screen and  (max-width: 730px) {
+  .memberImage {
+    height: 70%;
+  }
+
+  .memberText > p {
+    font-size: .77rem;
+  }
+}
+
+@media only screen and  (max-width: 600px) {
+  .memberImage {
+    height: 73%;
+  }
+
+  .memberText > p {
+    font-size: .82rem;
+  }
+}
+
+@media only screen and  (max-width: 440px) {
+  .memberText > p {
+    font-size: .77rem;
+  }
+}
+
+@media only screen and  (max-width: 365px) {
+  .memberText > p {
+    font-size: .77rem;
+  }
+  .memberImage {
+    height: 70%;
+  }
+}
+
+@media only screen and  (max-width: 315px) {
+  .memberImage {
+    height: 66%;
+  }
+}
+
+@media only screen and  (max-width: 280px) {
+  .memberImage {
+    height: 63%;
+  }
+}
+
+@media only screen and  (max-width: 260px) {
+  .memberImage {
+    height: 60%;
+  }
 }
