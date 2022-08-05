@@ -2,8 +2,8 @@ import React from 'react';
 import "./MembersContainer.css";
 import Member from '../../components/member/Member';
 import profileImg1 from "../../assets/workProfile.jpg";
-import profileImg2 from "../../assets/workProfile2.jpg";
-import profileImg3 from "../../assets/workProfile6.jpg";
+import profileImg2 from "../../assets/workProfile5.png";
+import profileImg3 from "../../assets/workProfile7.jpg";
 
 
 

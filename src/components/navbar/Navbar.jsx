@@ -25,18 +25,19 @@ const Navbar = () => {
       <a href="#" className='logoImg'>
         <img src={logo} alt="logo" />
       </a>
-
+      
       <ul className="navLink">
-        <li><a href="#">Home</a></li>
+        {/* <li><a href="#">Home</a></li> */}
         <li><a href="#value">Benefits</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#services">Our Services</a></li>
         <li><a href="#properties">Properties</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#membersContainer">Our Team</a></li>
         <li><a href="#contact">Contact us</a></li>
       </ul>
 
-      <div className="menu">
+      <div className="menuCont">
         {menuStatus ? 
           <div className="closeBtn">
             <Close 
@@ -61,6 +62,7 @@ const Navbar = () => {
               <li><a href="#services">Our Services</a></li>
               <li><a href="#properties">Properties</a></li>
               <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#membersContainer">Our Team</a></li>
               <li><a href="#contact">Contact us</a></li>
             </ul>
           )
