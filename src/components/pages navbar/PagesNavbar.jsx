@@ -31,7 +31,7 @@ const PagesNavbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/rentals">Rental Shortlet</Link></li>
         <li><Link to="/realestate">Real Estate</Link></li>
-        <li><Link to="/supply">Contract & Supply</Link></li>
+        <li><Link to="/supply">General Contract & Supply</Link></li>
       </ul>
 
       <div className="menu">
@@ -56,7 +56,7 @@ const PagesNavbar = () => {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/rentals">Rental Shortlet</Link></li>
               <li><Link to="/realestate">Real Estate</Link></li>
-              <li><Link to="/supply">Contract & Supply</Link></li>
+              <li><Link to="/supply">General Contract & Supply</Link></li>
             </ul>
           )
         }

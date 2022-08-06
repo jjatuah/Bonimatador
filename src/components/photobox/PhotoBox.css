@@ -16,6 +16,7 @@
   left: 0;
   z-index: 10;
   background: var(--altColor);
+  /* background: rgba(0, 0, 0, .3); */
   padding: 0.4rem 1rem;
 }
 
