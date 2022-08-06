@@ -2,8 +2,15 @@ import React, {useEffect} from 'react';
 import "./Rentals.css";
 import PageBanner from '../../components/page_banner/PageBanner';
 import backgroundImg from "../../assets/testimonyBackground.jpg";
+import Img1 from "../../assets/rental.jpg";
+import Img2 from "../../assets/rental2.jpg";
+import Img3 from "../../assets/rental3.jpg";
+import Img4 from "../../assets/rental4.jpg";
+import Img5 from "../../assets/rental5.jpg";
+import Img6 from "../../assets/rental6.jpg";
+import BgImg from "../../assets/featured10.jpg";
 import Video from '../../components/video/Video';
-import vid from "../../assets/Vid 3.mp4";
+import vid from "../../assets/rental.mp4";
 import poster from "../../assets/About2.jpg";
 import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
@@ -23,7 +30,7 @@ const Rentals = () => {
   return ( 
     <div className="rentals">
       <PagesNavbar />
-      <PageBanner img={backgroundImg} title={"Rental Properties"} cta={"Have a wonderful experience at our shortlet"} />
+      <PageBanner img={BgImg} title={"Rental Properties"} cta={"Have a wonderful experience at our shortlet"} />
       
       <div className="vidPitch">
         <div className="vid">
@@ -48,17 +55,17 @@ const Rentals = () => {
         <p>images from our shortlet</p>
 
         <div className="photoBoxContainer">
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img1} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img2} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img4} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"}/>
         </div>
       </div>
     </div>
