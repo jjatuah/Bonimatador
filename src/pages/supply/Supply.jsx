@@ -30,7 +30,7 @@ const Supply = () => {
   return ( 
     <div className="supply">
       <PagesNavbar />
-      <PageBanner img={backgroundImg} title={"General Contract and supply"} cta={"Give us a time and place and we'll surely deliver"} />
+      <PageBanner img={Img2} title={"General Contract and supply"} cta={"Give us a time and place and we'll surely deliver"} />
       
       <div className="vidPitch">
         <div className="vid">
@@ -55,17 +55,17 @@ const Supply = () => {
         <p>Delectus quae inventore molestiae accusamus</p>
 
         <div className="photoBoxContainer">
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img1} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img2} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img4} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"}/>
 
-          <PhotoBox img={gallery1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"}/>
         </div>
       </div>
       <Footer />

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./FeaturedProperty.css";
 import { Bathtub, BathtubOutlined, BathtubRounded, ExpandLessRounded, Facebook, KingBedRounded, Phone, WhatsApp} from '@material-ui/icons';
+import { Link } from "react-router-dom";
 
 
 
@@ -20,7 +21,7 @@ const FeaturedProperty = ({img, alt, price, location, type, setting, description
             <h3>{price}</h3>
             <a href="tel:+2348031952466" target="_blank" ><Phone /></a>
             <a href="https://wa.me/+2348031952466?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry" target="_blank" ><WhatsApp /></a>
-            <a href="#" target="_blank" ><Facebook /></a>
+            <a href="https://m.facebook.com/Schwarzmatadorhomes/" target="_blank" ><Facebook /></a>
           </div>
 
           <div className="propertyDesc">
@@ -36,8 +37,8 @@ const FeaturedProperty = ({img, alt, price, location, type, setting, description
         </div>
 
         <div className="propertyButtons">
-          <a href="#" target="_blank">request info</a>
-          <a href={detailsPage} target="_blank">view details</a>
+          <a href="#contact">request info</a>
+          <Link to={detailsPage} target="_blank">view details</Link>
         </div>
     </div>
    );
