@@ -52,23 +52,22 @@ const Supply = () => {
 
       <div className="gallery">
         <h2>Gallery</h2>
-        <p>Delectus quae inventore molestiae accusamus</p>
+        <p>We supply the following</p>
 
         <div className="photoBoxContainer">
-          <PhotoBox img={Img1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img1} desc={"All types of Sand"}/>
 
-          <PhotoBox img={Img2} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img2} desc={"Steel Rods"}/>
 
-          <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img3} desc={"All types of stones"}/>
 
-          <PhotoBox img={Img4} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img4} desc={"Alluminum roofing sheets"}/>
 
-          <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img5} desc={"Interlock Tyles"}/>
 
-          <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img6} desc={"Cement"}/>
         </div>
       </div>
-      <Footer />
     </div>
    );
 }
