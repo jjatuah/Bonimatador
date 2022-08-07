@@ -28,12 +28,12 @@ const Footer = () => {
         <div className="contactLinks">
           <h2>Contacts</h2>
           <div className="contactsContainer">
-            <a href="#">{<Instagram style={{color: "#2196f3", marginRight: "5px"}}  />}Instagram</a>
-            <a href="#">{<Facebook style={{color: "#2196f3", marginRight: "5px"}} />}Facebook</a>
-            <a href="#">{<WhatsApp style={{color: "#2196f3", marginRight: "5px"}} />}WhatsApp</a>
-            <a href="#">{<Phone style={{color: "#2196f3", marginRight: "5px"}} />}Phone</a>
-            <a href="#">{<MailOutline style={{color: "#2196f3", marginRight: "5px"}} />}Email</a>
-            <a href="#">{<MessageRounded style={{color: "#2196f3", marginRight: "5px"}} />}Send a Message</a>
+            <a href="https://instagram.com/schwarzmatadorhomes?r=nametag">{<Instagram style={{color: "#2196f3", marginRight: "5px"}}  />}Instagram</a>
+            <a href="https://m.facebook.com/Schwarzmatadorhomes/">{<Facebook style={{color: "#2196f3", marginRight: "5px"}} />}Facebook</a>
+            <a href="https://wa.me/+2348031952466?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry">{<WhatsApp style={{color: "#2196f3", marginRight: "5px"}} />}WhatsApp</a>
+            <a href="tel:+2348031952466">{<Phone style={{color: "#2196f3", marginRight: "5px"}} />}Phone</a>
+            <a href="mailto:bonimatador@gmail.com">{<MailOutline style={{color: "#2196f3", marginRight: "5px"}} />}Email</a>
+            {/* <a href="#contact">{<MessageRounded style={{color: "#2196f3", marginRight: "5px"}} />}Send a Message</a> */}
           </div>
         </div>
       </div>

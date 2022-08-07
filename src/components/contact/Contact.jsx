@@ -56,10 +56,10 @@ const Contact = () => {
             </div>
 
             <div className="box">
-              <div className="icon"><MailOutline /></div>
-              <h3 style={{color: "#2196f3"}}>Email</h3>
-              <h5>bonimatador@gmail.com</h5>
-              <a href="mailto:bonimatador@gmail.com" target="blank">Click to Send an Email</a>
+              <div className="icon"><Instagram /></div>
+              <h3 style={{color: "#2196f3"}}>Instagram</h3>
+              <h5>SchwazMatador Homes</h5>
+              <a href="https://instagram.com/schwarzmatadorhomes?r=nametag" target="blank">Click to connect with us</a>
             </div>
 
             <div className="box">
