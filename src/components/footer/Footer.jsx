@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import { Facebook, Instagram, MailOutline, MessageRounded, Phone, Pinterest, Room, Twitter, WhatsApp,  ArrowRight } from '@material-ui/icons';
+import { Facebook, Instagram, MailOutline, MessageRounded, Phone, Pinterest, Room, Twitter, WhatsApp,  ArrowRight, AddLocationRounded, LocationCityRounded, LocationOn } from '@material-ui/icons';
 import logo from "../../assets/logo.jpg";
 import { Link } from "react-router-dom";
 
@@ -34,6 +34,24 @@ const Footer = () => {
             <a href="tel:+2348031952466">{<Phone style={{color: "#2196f3", marginRight: "5px"}} />}Phone</a>
             <a href="mailto:bonimatador@gmail.com">{<MailOutline style={{color: "#2196f3", marginRight: "5px"}} />}Email</a>
             {/* <a href="#contact">{<MessageRounded style={{color: "#2196f3", marginRight: "5px"}} />}Send a Message</a> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="location">
+        <div className="headOffice">
+          <h2>Head Office</h2>
+          <div className="officeContainer">
+            <p>{<LocationOn style={{color: "#2196f3"}} />} Suite 113 Anbeez Plaza,</p>
+            <p>Opp. Former CAC Wuse Zone 5, Abuja</p>
+          </div>
+        </div>
+
+        <div className="siteOffice">
+          <h2>Site Office</h2>
+          <div className="siteContainer">
+            <p>{<LocationOn style={{color: "#2196f3"}} />} Plot 519, Karmo District,</p>
+            <p>Near Nzamiya Hospital, Karmo - Abuja</p>
           </div>
         </div>
       </div>
