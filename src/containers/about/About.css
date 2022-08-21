@@ -2,12 +2,12 @@
   display: flex;
   background: var(--backColor);
   flex-wrap: wrap;
-  padding: 100px 100px 0;
+  padding: 100px 40px 0;
 }
 
 .aboutText {
   flex: 1;
-  padding: 15px;
+  padding: 15px 5px;
 }
 
 .aboutText > h2 {
@@ -15,8 +15,8 @@
   color: var(--altColor);
   text-transform: capitalize;
   font-weight: 700;
-  padding: .5rem 0;
-  line-height: 1.2;
+  padding: .2rem 0;
+  line-height: 1;
   text-align: center;
 }
 
@@ -24,8 +24,8 @@
   font-size: 1.7rem;
   text-transform: capitalize;
   font-weight: 400;
-  padding: .5rem 0;
-  line-height: 1.2;
+  padding: .2rem 0;
+  line-height: 1;
   color: var(--textColor);
   text-align: center;
 }
@@ -33,18 +33,18 @@
 .aboutText > p {
   font-size: 1rem;
   text-align: justify;
-  padding: 1.5rem 0;
+  padding: .7rem 0;
   line-height: 1.5;
   color: var(--textColor);
 }
 
 .aboutText > ul {
-  padding: 0.8rem 0;
+  padding: 0.5rem 0;
 }
 
 .aboutText > ul > li {
   text-decoration: none;
-  padding: .5rem 0;
+  padding: .3rem 0;
   line-height: 1.5;
   display: flex;
   color: var(--textColor);
@@ -55,7 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 0px 5px;
   padding-bottom: 0px;
 }
 

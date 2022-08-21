@@ -1,6 +1,6 @@
 import React from 'react';
 import "./FeaturedProperty.css";
-import { Bathtub, BathtubOutlined, BathtubRounded, ExpandLessRounded, Facebook, KingBedRounded, Phone, WhatsApp} from '@material-ui/icons';
+import { BathtubRounded, ExpandLessRounded, Facebook, KingBedRounded, Phone, WhatsApp} from '@material-ui/icons';
 import { Link } from "react-router-dom";
 
 

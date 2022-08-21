@@ -8,8 +8,6 @@ import Value from "./containers/value/Value";
 import Services from "./containers/services/Services";
 import FeaturedProperties from "./containers/featured properties/FeaturedProperties";
 import Contact from "./components/contact/Contact";
-import Test from "./test";
-import Test2 from "./test2";
 import Testimonials from "./containers/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
 import Rentals from "./pages/rentals/Rentals";
