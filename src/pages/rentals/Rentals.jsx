@@ -55,17 +55,17 @@ const Rentals = () => {
         <p>images from our shortlet</p>
 
         <div className="photoBoxContainer">
-          <PhotoBox img={Img1} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img1} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
-          <PhotoBox img={Img2} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img2} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
-          <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
-          <PhotoBox img={Img4} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img4} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
-          <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
-          <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"}/>
+          <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const FeaturedProperties = () => {
       <div className="featuredPropertyContainer">
           <FeaturedProperty img={featured10} alt={"property image"} price={"₦25,000/Night"} location={"Kado Abuja"} type={"For Rent"} setting={"Rental Shortlet"} description={"Fall in love with the peaceful tranquil setting of our spacious four bedroom duplex located in the heart of Abuja. We offer you a luxury style, resort-living experience with all the nedded privacy"} area={"3000 sqft"} beds={"4"} baths={"4"} detailsPage={"/rentals"} />
 
-          <FeaturedProperty img={featured1} alt={"property image"} price={"₦80,000,000"} location={"Kubwa Abuja"} type={"For Sale"} setting={"5 Bedroom Semi-Detached Duplex"} description={"Located in a secure and serene environment with close proximity to the Airport, Train station and Jabi Lake Park"} area={"900 sqft"} beds={"5"} baths={"5"} detailsPage={"/realestate"} />
+          <FeaturedProperty img={featured1} alt={"property image"} price={"₦80,000,000"} location={"Karmo Abuja"} type={"For Sale"} setting={"5 Bedroom Semi-Detached Duplex"} description={"Located in a secure and serene environment with close proximity to the Airport, Train station and Jabi Lake Park"} area={"900 sqft"} beds={"5"} baths={"5"} detailsPage={"/realestate"} />
       </div>
     </div>
    );

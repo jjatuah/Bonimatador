@@ -3,12 +3,12 @@ import "./PhotoBox.css";
 
 
 
-const PhotoBox = ({img, desc}) => {
+const PhotoBox = ({img, desc, status}) => {
   return ( 
     <div className="photoBox">
       <img src={img} alt="" />
       <div className="photoDesc">
-        <h3>{desc}</h3>
+        {status && <h3>{desc}</h3>}
       </div>
     </div>
    );
