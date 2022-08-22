@@ -7,12 +7,6 @@ import Img3 from "../../assets/real3.jpg";
 import Img4 from "../../assets/real4.JPG";
 import Img5 from "../../assets/real5.JPG";
 import Img6 from "../../assets/real6.JPG";
-import Img7 from "../../assets/edit1.png";
-import Img8 from "../../assets/edit2.png";
-import Img9 from "../../assets/edit4.png";
-import Img10 from "../../assets/edit5.png";
-import Img11 from "../../assets/edit6.png";
-import Img12 from "../../assets/edit7.png";
 import Video from '../../components/video/Video';
 import vid from "../../assets/Vid 3.mp4";
 import poster from "../../assets/About2.jpg";
@@ -75,19 +69,6 @@ const RealEstate = () => {
           <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
           <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
-
-
-          {/* <PhotoBox img={Img7} />
-
-          <PhotoBox img={Img8} />
-
-          <PhotoBox img={Img9} />
-
-          <PhotoBox img={Img10} />
-
-          <PhotoBox img={Img11} />
-
-          <PhotoBox img={Img12} /> */}
         </div>
       </div>
     </div>
