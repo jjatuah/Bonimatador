@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import "./RealEstate.css";
+// import "./RealEstate.css";
 import PageBanner from '../../components/page_banner/PageBanner';
 import bgImg from "../../assets/real.jpg";
 import Img2 from "../../assets/real2.jpg";

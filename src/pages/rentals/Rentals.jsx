@@ -40,12 +40,12 @@ const Rentals = () => {
 
         <div className="pitch">
           <h3>Why our shortlets are the best ?</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit?</p>
+          <p>Our appartments offer luxury style resort living in the best and most secured locations in Abuja. You'll get all the privacy you need and the experience you deserve.</p>
           <ul>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}How to support your Immune system</li>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}A guide to 30 day fitness and workout challenges</li>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Guide to ease your back in the gym</li>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}The mental health benefits of exercise</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Fully serviced & 24 hour customer service</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}24 hour Electricity + Standby Power Source</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Close proximity to the Airport, Train station & Jabi Lake Park</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Peaceful and tranquil setting with maximum privacy. </li>
           </ul>
         </div>
       </div>
