@@ -8,7 +8,7 @@ import Img4 from "../../assets/real4.JPG";
 import Img5 from "../../assets/real5.JPG";
 import Img6 from "../../assets/real6.JPG";
 import Video from '../../components/video/Video';
-import vid from "../../assets/Vid 3.mp4";
+import vid from "../../assets/realEstate.mp4";
 import poster from "../../assets/About2.jpg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
@@ -32,12 +32,12 @@ const RealEstate = () => {
       <div className="vidPitch">
         <div className="vid">
            <Video poster={poster} video={vid} type={"video/mp4"} />
-           <h4>Delectus quae inventore molestiae accusamus</h4>
+           <h4>Let's take you through our current project</h4>
         </div>
 
         <div className="pitch">
-          <h3>5 Semi-Detached Duplexes</h3>
-          <p> Amenities available include: </p>
+          <h3>Poco Boninni Court (5 Bedroom Semi-Detached Duplex) </h3>
+          <p> Internal spaces are laid out intentionally, to allow for adequate living accommodation. <br /> <br /> Amenities available include: </p>
           <ul>
             <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}24hrs Electricity supply</li>
             <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}CCTV Camera</li>
@@ -55,20 +55,20 @@ const RealEstate = () => {
 
       <div className="gallery">
         <h2>Gallery</h2>
-        <p>Delectus quae inventore molestiae accusamus</p>
+        <p>Project in pictures</p>
 
         <div className="photoBoxContainer">
-          <PhotoBox img={bgImg} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={bgImg} desc={"Project under construction"} status= {true}/>
 
-          <PhotoBox img={Img2} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img2} desc={"Aerial view of project under construction"} status= {true}/>
 
-          <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img3} desc={"Front view of project under construction"} status= {true}/>
 
-          <PhotoBox img={Img4} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img4} desc={"3D front view"} status= {true}/>
 
-          <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img5} desc={"3D aerial view"} status= {true}/>
 
-          <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img6} desc={"3D side view"} status= {true}/>
         </div>
       </div>
     </div>

@@ -40,12 +40,12 @@ const Supply = () => {
 
         <div className="pitch">
           <h3>no matter what, we always deliver</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit?</p>
+          <p>We have the expertise and capacity to meet your demands without delay. Our excellent service and express/timely delivery will save you time, money and other resources.</p>
           <ul>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}How to support your Immune system</li>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}A guide to 30 day fitness and workout challenges</li>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Guide to ease your back in the gym</li>
-            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}The mental health benefits of exercise</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Timely Delivery</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Great value at the best price</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Reliability</li>
+            <li>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}Quality products & excellent service</li>
           </ul>
         </div>
       </div>
