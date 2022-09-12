@@ -9,7 +9,7 @@
 .memberImage {
   position: relative;
   width: 100%;
-  height: 73%;
+  height: 88%;
   overflow: hidden;
 }
 
@@ -85,13 +85,13 @@
 
 @media only screen and  (max-width: 1000px) {
   .memberImage {
-    height: 70%;
+    height: 88%;
   }
 }
 
 @media only screen and  (max-width: 850px) {
   .memberImage {
-    height: 70%;
+    height: 88%;
   }
 
   .memberText > p {
@@ -101,7 +101,7 @@
 
 @media only screen and  (max-width: 730px) {
   .memberImage {
-    height: 70%;
+    height: 88%;
   }
 
   .memberText > p {
@@ -111,17 +111,29 @@
 
 @media only screen and  (max-width: 600px) {
   .memberImage {
-    height: 73%;
+    height: 88%;
   }
 
   .memberText > p {
     font-size: .82rem;
+  }
+
+  .member {
+    height: 30rem;
   }
 }
 
 @media only screen and  (max-width: 440px) {
   .memberText > p {
     font-size: .77rem;
+  }
+
+  .memberImage {
+    height: 86%;
+  }
+
+  .member {
+    height: 26rem;
   }
 }
 
@@ -130,24 +142,24 @@
     font-size: .77rem;
   }
   .memberImage {
-    height: 70%;
+    height: 88%;
   }
 }
 
 @media only screen and  (max-width: 315px) {
   .memberImage {
-    height: 66%;
+    height: 86%;
   }
 }
 
 @media only screen and  (max-width: 280px) {
   .memberImage {
-    height: 63%;
+    height: 86%;
   }
 }
 
 @media only screen and  (max-width: 260px) {
   .memberImage {
-    height: 60%;
+    height: 86%;
   }
 }
