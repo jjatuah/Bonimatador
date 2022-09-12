@@ -1,23 +1,16 @@
-import reviewImage1 from "../../assets/reviewImage1.png";
-import reviewImage2 from "../../assets/reviewImage2.png";
-import reviewImage3 from "../../assets/reviewImage3.png";
+import female from "../../assets/female.jpg";
+import male from "../../assets/male.jpg";
 
 
 export const testimonyData = [
   {
-    image: reviewImage1,
-    testimony: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit",
+    image: female,
+    testimony: "Nobody does real estate business like Schwarz Matador homes. They keep their clients best interest in sharp focus. They were mindful of our taste and needs from start to finish. You can always trust them to be on top of every detail which brings peace of mind in any real estate transaction.",
     name: " Jess Walsh",
     position: "Manager KKG Group"
   },
   {
-    image: reviewImage2,
-    testimony: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit",
-    name: "Anna Baker",
-    position: "CEO AB Chemicals"
-  },
-  {
-    image: reviewImage3,
+    image: male,
     testimony: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit",
     name: " Justin Solomon",
     position: "Pastor LFC Michigan"

@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 // import "./Supply.css";
 import PageBanner from '../../components/page_banner/PageBanner';
-import backgroundImg from "../../assets/testimonyBackground.jpg";
 import Img1 from "../../assets/CAS1.jpg";
 import Img2 from "../../assets/CAS2.png";
 import Img3 from "../../assets/CAS3.jpg";
@@ -11,12 +10,10 @@ import Img6 from "../../assets/CAS6.jpg";
 import Video from '../../components/video/Video';
 import vid from "../../assets/contractAndSupply.mp4";
 import poster from "../../assets/About2.jpg";
-import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
 import PagesNavbar from '../../components/pages navbar/PagesNavbar';
-import { useLocation } from "react-router";
-import Footer from '../../components/footer/Footer';
+import { useLocation } from "react-router"; 
 
 
 

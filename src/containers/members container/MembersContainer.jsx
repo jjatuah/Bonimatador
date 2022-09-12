@@ -1,12 +1,8 @@
 import React from 'react';
 import "./MembersContainer.css";
 import Member from '../../components/member/Member';
-import profileImg1 from "../../assets/workProfile.jpg";
-import profileImg2 from "../../assets/workProfile5.png";
-import profileImg3 from "../../assets/workProfile7.jpg";
+import profileImg1 from "../../assets/workProfile11.jpg";
 import profileImg4 from "../../assets/workProfile8.JPG";
-import profileImg5 from "../../assets/workProfile9.jpg";
-import profileImg6 from "../../assets/workProfile10.jpg";
 
 
 
@@ -16,11 +12,10 @@ const MembersContainer = () => {
     <div className="membersContainer" id='membersContainer'>
       <h2>Meet the team</h2>
       <div className="membersWrapper">
-       <Member img={profileImg1} position={"C.E.O."} name={"Jasmine Turner"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"} text={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit"} />
+       <Member img={profileImg1} position={"C.E.O."} name={"Michael Gloria Ene"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"}/>
 
-        <Member img={profileImg4} position={"Marketing Manager"} name={"Ogbe Agnes"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"} text={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit"} />
+        <Member img={profileImg4} position={"Marketing Manager"} name={"Ogbe Agnes"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"}/>
 
-        <Member img={profileImg6} position={"C.O.O."} name={"Peter Obi"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"} text={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quae inventore molestiae accusamus facere ducimus, magni quidem cumque debitis sed beatae totam, culpa dolore voluptatum incidunt hic quia, mollitia fugit"} />
       </div>
     </div>
    );
