@@ -3,6 +3,7 @@ import "./Value.css";
 import valueImage from "../../assets/value1.jpg";
 import { CheckBoxOutlined, KeyboardArrowDownOutlined } from '@material-ui/icons';
 import { useState } from 'react';
+import ValueItem from '../../components/value item/ValueItem';
 
 
 
@@ -37,61 +38,14 @@ const Value = () => {
           </div>
 
           <div className="valueItems">
-            <div className="valueItem" onClick={handleToggle1}>
-              <div className="valueItemHeader">
-                <span>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}</span>
-                <h3> Best prices in the market</h3>
-                <div className="valueItemArrow">
-                  <span>{<KeyboardArrowDownOutlined/>}</span>
-                </div>
-              </div>
 
-              <div className="valueItemDesc">
-                { desc1 && <p>The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come.</p>}
-              </div>
-            </div>
+            <ValueItem displayFunction={handleToggle1} title={"Best prices in the market"} desc= {desc1 && "The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come."}/>
 
-            <div className="valueItem" onClick={handleToggle2}>
-              <div className="valueItemHeader">
-                <span>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}</span>
-                <h3> Best interest rate</h3>
-                <div className="valueItemArrow">
-                  <span>{<KeyboardArrowDownOutlined/>}</span>
-                </div>
-              </div>
+            <ValueItem displayFunction={handleToggle2} title={"Best prices in the market"} desc= {desc2 && "The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come."}/>
 
-              <div className="valueItemDesc">
-                {desc2 && <p>The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come.</p>}
-              </div>
-            </div>
+            <ValueItem displayFunction={handleToggle3} title={"Best value for money"} desc= {desc3 && "The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come."}/>
 
-            <div className="valueItem" onClick={handleToggle3}>
-              <div className="valueItemHeader">
-                <span>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}</span>
-                <h3> Best value for money</h3>
-                <div className="valueItemArrow">
-                  <span>{<KeyboardArrowDownOutlined/>}</span>
-                </div>
-              </div>
-
-              <div className="valueItemDesc">
-                {desc3 && <p>The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come.</p>}
-              </div>
-            </div>
-
-            <div className="valueItem" onClick={handleToggle4}>
-              <div className="valueItemHeader">
-                <span>{<CheckBoxOutlined style={{color: "#2196f3", marginRight: "3.5px"}} />}</span>
-                <h3> Sure and secure investments</h3>
-                <div className="valueItemArrow">
-                  <span>{<KeyboardArrowDownOutlined/>}</span>
-                </div>
-              </div>
-
-              <div className="valueItemDesc">
-                {desc4 && <p>The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come.</p>}
-              </div>
-            </div>
+            <ValueItem displayFunction={handleToggle4} title={"Sure and secure investments"} desc= {desc4 && "The prices wwe provide is the best in the market. We guarantee no price changes on your property due to  various unexpected costs that may come."}/>
           </div>
         </div>
       </div>
