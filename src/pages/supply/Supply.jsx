@@ -9,7 +9,7 @@ import Img4 from "../../assets/CAS4.png";
 import Img5 from "../../assets/CAS5.jpg";
 import Img6 from "../../assets/CAS6.jpg";
 import Video from '../../components/video/Video';
-import vid from "../../assets/Vid 3.mp4";
+import vid from "../../assets/contractAndSupply.mp4";
 import poster from "../../assets/About2.jpg";
 import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
