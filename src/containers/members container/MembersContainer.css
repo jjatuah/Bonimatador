@@ -20,7 +20,13 @@
 
 @media only screen and  (max-width: 1120px) {
   .membersContainer {
-    padding: 100px 20px 0;
+    padding: 100px 140px 0;
+  }
+}
+
+@media only screen and  (max-width: 900px) {
+  .membersContainer {
+    padding: 100px 100px 0;
   }
 }
 

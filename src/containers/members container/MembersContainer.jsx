@@ -12,9 +12,9 @@ const MembersContainer = () => {
     <div className="membersContainer" id='membersContainer'>
       <h2>Meet the team</h2>
       <div className="membersWrapper">
-       <Member img={profileImg1} position={"C.E.O."} name={"Michael Gloria Ene"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"}/>
+       <Member img={profileImg1} position={"C.E.O."} name={"Michael Gloria Ene"} phone={"tel:+2348051644679"} whatsApp={"https://wa.me/+2348051644679?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry"} facebook={"https://m.facebook.com/Schwarzmatadorhomes/"} instagram={"https://instagram.com/schwarzmatadorhomes?r=nametag"}/>
 
-        <Member img={profileImg4} position={"Marketing Manager"} name={"Ogbe Agnes"} phone={"#"} whatsApp={"#"} facebook={"#"} instagram={"#"}/>
+        <Member img={profileImg4} position={"Marketing Manager"} name={"Ogbe Agnes"} phone={"tel:+2349063734872"} whatsApp={"https://wa.me/+2349063734872?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry"} facebook={"https://m.facebook.com/Schwarzmatadorhomes/"} instagram={"https://instagram.com/schwarzmatadorhomes?r=nametag"}/>
 
       </div>
     </div>

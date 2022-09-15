@@ -115,98 +115,116 @@
   padding: 0 35px 0 40px;
 }
 
-@media only screen and (max-width: 1091px) {
-  .valueContent {
-    flex: 1.25;
-  }
-
-  .valueTitle > h3, .valueTitle > h2 {
-    padding: .2rem 0;
-  }
-
+@media only screen and (max-width: 1190px) {
   .valueTitle > h3 {
-    font-size: 1.5em;
-  }
-
-  .valueTitle > h2 {
-    font-size: 1.35rem;
-  }
-
-  .valueImage {
-    padding: 5px 15px 0 0;
+    font-size: 1.2em;
+    padding: 0;
   }
 
   .valueTitleDesc {
-    font-size: .9rem;
-  }
-  
-  .valueItemHeader > h3 {
-    font-size: 1rem;
+    font-size: .75rem;
   }
 }
 
-@media only screen and (max-width: 1000px) {
-  .valueImage {
-    flex: 2;
-  }
-
-  .valueItemDesc > p {
-    font-size: 13px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .valueContainer {
     flex-direction: column-reverse;
   }
 
-  .valueContent {
-    padding: 0 180px;
+  .valueTitle > h3 {
+    font-size: 1.7rem;
+    padding: .3rem 0;
+  }
+
+  .valueTitleDesc {
+    font-size: 1rem;
+    padding-bottom: .7rem;
+  }
+
+  .value {
+    padding: 102px 180px 0;
   }
 
   .valueImage {
-    padding: 50px 100px 0;
+    padding: 40px 50px 0;
   }
 
-  .valueTitle > h3, .valueTitle > h2 {
-    padding: .4rem 0;
+  .valueContent {
+    padding: 0 60px 10px;
   }
+  
+}
 
-  .valueItems {
-    padding: .5rem 0;
+@media only screen and (max-width: 1000px) {
+  .valueTitle > h3 {
+    font-size: 1.5rem;
   }
 }
 
-
-@media only screen and (max-width: 800px) {
-  .valueContent {
-    padding: 0 120px;
+@media only screen and (max-width: 950px) {
+  .valueTitle > h3 {
+    font-size: 1.5rem;
   }
 
-  .valueImage {
-    padding: 50px 70px 0;
+  .value {
+    padding: 102px 150px 0;
   }
 }
 
-
-@media only screen and (max-width: 700px) {
-  .valueContent {
-    padding: 0 80px;
+@media only screen and (max-width: 885px) {
+  .value {
+    padding: 102px 120px 0;
   }
+}
 
-  .valueImage {
-    padding: 50px 50px 0;
+@media only screen and (max-width: 820px) {
+  .value {
+    padding: 102px 90px 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .value {
+    padding: 102px 50px 0;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .value {
+    padding: 102px 20px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .valueTitle > h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .value {
+    padding: 102px 15px 0;
   }
 }
 
 
 @media only screen and (max-width: 600px) {
-  .valueContent {
-    padding: 0 40px;
+  .valueTitleDesc {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .value {
+    padding: 102px 2px 0;
   }
 
-  .valueImage {
-    padding: 35px 35px 0;
+  .valueTitle > h3 {
+    padding-top: 0;
+  }
+
+  .valueTitle > h2 {
+    padding: .2rem 0; 
   }
 }
 
