@@ -32,7 +32,7 @@ const Supply = () => {
       <div className="vidPitch">
         <div className="vid">
            <Video poster={poster} video={vid} type={"video/mp4"} />
-           <h4>Delectus quae inventore molestiae accusamus</h4>
+           <h4>Pick a time and place, we'll surely deliver.</h4>
         </div>
 
         <div className="pitch">

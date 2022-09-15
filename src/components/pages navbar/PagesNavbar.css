@@ -135,9 +135,15 @@
   }
 }
 
+@media only screen and  (max-width: 500px) {
+  .mobileNavLinks  {
+    font-size: 70%;
+  }
+}
+
 @media only screen and  (max-width: 400px) {
   .mobileNavLinks  {
-    font-size: 75%;
+    font-size: 70%;
     width: 40vw;
   }
 

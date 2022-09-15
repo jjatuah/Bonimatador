@@ -78,21 +78,6 @@
     flex-direction: column;
     padding: 100px 200px 0;
   }
-  /* .aboutText {
-    padding: 15px 125px 0;
-  }
-
-  .aboutImage {
-    overflow: hidden;
-    padding: 50px 5px;
-    padding-bottom: 0px;
-  }
-
-  .aboutImage > img {
-    width: 70%;
-    height: 50%;
-    object-fit: contain;
-  } */
 }
 
 @media only screen and  (max-width: 1100px) {
