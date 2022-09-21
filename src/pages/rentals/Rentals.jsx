@@ -59,11 +59,11 @@ const Rentals = () => {
 
           <PhotoBox img={Img2} desc={"The Dinning Room"} status= {true}/>
 
-          <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img3} desc={"The Bedroom"} status= {true}/>
 
-          <PhotoBox img={Img4} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img4} desc={""} status= {true}/>
 
-          <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img5} desc={""} status= {true}/>
 
           <PhotoBox img={Img6} desc={"The Kitchen"} status= {true}/>
         </div>
