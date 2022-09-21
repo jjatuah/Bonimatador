@@ -9,7 +9,7 @@ import Img5 from "../../assets/real5.JPG";
 import Img6 from "../../assets/real6.JPG";
 import Video from '../../components/video/Video';
 import vid from "../../assets/realEstate.mp4";
-import poster from "../../assets/About2.jpg";
+import poster from "../../assets/realEstatePoster.jpg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
 import PagesNavbar from '../../components/pages navbar/PagesNavbar';
@@ -32,7 +32,7 @@ const RealEstate = () => {
       <div className="vidPitch">
         <div className="vid">
            <Video poster={poster} video={vid} type={"video/mp4"} />
-           <h4>Let's take you through our current project</h4>
+           <h4>Let's take you through our current project with this video</h4>
         </div>
 
         <div className="pitch">

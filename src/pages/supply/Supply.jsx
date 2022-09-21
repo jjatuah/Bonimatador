@@ -9,7 +9,7 @@ import Img5 from "../../assets/CAS5.jpg";
 import Img6 from "../../assets/CAS6.jpg";
 import Video from '../../components/video/Video';
 import vid from "../../assets/contractAndSupply.mp4";
-import poster from "../../assets/About2.jpg";
+import poster from "../../assets/supplyPoster.jpg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
 import PagesNavbar from '../../components/pages navbar/PagesNavbar';

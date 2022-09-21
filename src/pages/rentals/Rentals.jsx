@@ -11,7 +11,7 @@ import Img6 from "../../assets/rental9.jpg";
 import BgImg from "../../assets/featured10.jpg";
 import Video from '../../components/video/Video';
 import vid from "../../assets/rental.mp4";
-import poster from "../../assets/About2.jpg";
+import poster from "../../assets/realEstatePoster.jpg";
 import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
@@ -55,9 +55,9 @@ const Rentals = () => {
         <p>images from our shortlet</p>
 
         <div className="photoBoxContainer">
-          <PhotoBox img={Img1} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img1} desc={"The Living Room"} status= {true}/>
 
-          <PhotoBox img={Img2} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img2} desc={"The Dinning Room"} status= {true}/>
 
           <PhotoBox img={Img3} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
@@ -65,7 +65,7 @@ const Rentals = () => {
 
           <PhotoBox img={Img5} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
 
-          <PhotoBox img={Img6} desc={"Lorem ipsum, dolor sit amet con"} status= {true}/>
+          <PhotoBox img={Img6} desc={"The Kitchen"} status= {true}/>
         </div>
       </div>
     </div>
