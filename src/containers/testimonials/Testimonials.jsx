@@ -75,7 +75,6 @@ const Testimonials = () => {
                           <p>{slide.testimony}</p>
                           <img src={slide.image} alt="" />
                           <h4>{slide.name}</h4>
-                          <h5 >{slide.position}</h5>
                         </div>
                         <KeyboardArrowLeftRoundedIcon style={{fontSize: "45px"}} className='left' onClick={prevSlider}/>
                         <KeyboardArrowRightRoundedIcon style={{fontSize: "45px"}} 

@@ -79,10 +79,6 @@
   margin-top: 20px;
 }
 
-.testimonyContent > h5 {
-  font-size: .9em;
-}
-
 .left {
   position: absolute;
   z-index: 1000;
@@ -144,10 +140,6 @@
     font-size: .9rem;
   }
   
-  .testimonyContent > h5 {
-    font-size: .8em;
-  }
-  
 }
 
 @media only screen and  (max-width: 700px) {
@@ -189,10 +181,6 @@
   .testimonyContent > h4 {
     margin-top: 10px;
     font-size: .77rem;
-  }
-  
-  .testimonyContent > h5 {
-    font-size: .7em;
   }
 
   .right, .left {
