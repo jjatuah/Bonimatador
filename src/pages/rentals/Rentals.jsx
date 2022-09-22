@@ -11,7 +11,7 @@ import Img6 from "../../assets/rental9.jpg";
 import BgImg from "../../assets/featured10.jpg";
 import Video from '../../components/video/Video';
 import vid from "../../assets/rental.mp4";
-import poster from "../../assets/realEstatePoster.jpg";
+import poster from "../../assets/shortletPoster.jpg";
 import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
