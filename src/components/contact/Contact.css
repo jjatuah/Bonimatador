@@ -75,6 +75,14 @@
   padding: .5rem;
 }
 
+.box > a:hover {
+  color: var(--altColor);
+  background: var(--textColor);
+  border: 2px solid var(--altColor);
+  border-radius: 10px;
+  /* background-color: hsl(225, 22%, 93%); */
+}
+
 /* .contactInfoBx .box .icon {
   min-width: 40px;
   padding-top: 4px;
@@ -162,6 +170,12 @@
   text-transform: uppercase;
   /* letter-spacing: 2px; */
   color: var(--textColor);
+}
+
+.formBx form input[type="submit"]:hover {
+  background: var(--textColor);
+  color: var(--altColor);
+  border-radius: 10px;
 }
 
 
