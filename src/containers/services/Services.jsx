@@ -12,7 +12,6 @@ const Services = () => {
     <div className="services" id='services'>
       <div className="servicesHeader">
         <h2>Our Services</h2>
-        <p>We offer the services below</p>
       </div>
       <div className="servicesContainer">
         <Service img={aboutImage} title={"Real Estate"} path={"/realestate"} />
