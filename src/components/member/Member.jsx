@@ -8,7 +8,7 @@ const Member = ({img, position, name, phone, whatsApp, facebook, instagram, text
   return ( 
     <div className="member">
       <div className="memberImage">
-        <img src={img} alt="profile image"/>
+        <img src={img} alt="member profile image"/>
         <div className="memberInfo">
           <h3>{position}</h3>
           <h3>{name}</h3>
@@ -17,10 +17,10 @@ const Member = ({img, position, name, phone, whatsApp, facebook, instagram, text
 
       <div className="memberData">
          <div className="memberSocials">
-            <a href={phone} target="_blank" ><Phone /></a>
-            <a href={whatsApp} target="_blank" ><WhatsApp /></a>
-            <a href={facebook} target="_blank" ><Facebook /></a>
-            <a href={instagram} target="_blank" ><Instagram /></a>
+            <a href={phone} target="_blank" rel="noopener noreferrer" ><Phone /></a>
+            <a href={whatsApp} target="_blank" rel="noopener noreferrer" ><WhatsApp /></a>
+            <a href={facebook} target="_blank" rel="noopener noreferrer" ><Facebook /></a>
+            <a href={instagram} target="_blank" rel="noopener noreferrer" ><Instagram /></a>
           </div>
 
           <div className="memberText">

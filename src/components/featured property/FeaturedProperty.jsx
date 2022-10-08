@@ -19,9 +19,9 @@ const FeaturedProperty = ({img, alt, price, location, type, setting, description
         <div className="propertyData">
           <div className="price_contact">
             <h3>{price}</h3>
-            <a href="tel:+2348031952466" target="_blank" ><Phone /></a>
-            <a href="https://wa.me/+2348031952466?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry" target="_blank" ><WhatsApp /></a>
-            <a href="https://m.facebook.com/Schwarzmatadorhomes/" target="_blank" ><Facebook /></a>
+            <a href="tel:+2348031952466" target="_blank" rel="noopener noreferrer" ><Phone /></a>
+            <a href="https://wa.me/+2348031952466?text=I'm%20from%20your%20website%20and%20I%20want%20to%20make%20an%20enquiry" target="_blank" rel="noopener noreferrer"><WhatsApp /></a>
+            <a href="https://m.facebook.com/Schwarzmatadorhomes/" target="_blank" rel="noopener noreferrer" ><Facebook /></a>
           </div>
 
           <div className="propertyDesc">
