@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./ValueItem.css";
 import { CheckBoxOutlined, KeyboardArrowDownOutlined } from '@material-ui/icons';
 

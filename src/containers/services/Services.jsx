@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Services.css";
 import Service from '../../components/service/Service';
-import service1 from "../../assets/Service1.jpg";
 import service2 from "../../assets/Service2.jpg";
 import service3 from "../../assets/Service3.jpg";
 import aboutImage from "../../assets/About2.jpg";

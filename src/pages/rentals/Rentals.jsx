@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import "./Rentals.css";
 import PageBanner from '../../components/page_banner/PageBanner';
-import backgroundImg from "../../assets/testimonyBackground.jpg";
 import Img1 from "../../assets/rental7.jpg";
 import Img2 from "../../assets/rental8.jpg";
 import Img3 from "../../assets/rental3.jpg";
@@ -12,12 +11,10 @@ import BgImg from "../../assets/featured10.jpg";
 import Video from '../../components/video/Video';
 import vid from "../../assets/rental.mp4";
 import poster from "../../assets/shortletPoster.jpg";
-import gallery1 from "../../assets/Banner8.jpeg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 import PhotoBox from '../../components/photobox/PhotoBox';
 import PagesNavbar from '../../components/pages navbar/PagesNavbar';
 import { useLocation } from "react-router";
-import Footer from '../../components/footer/Footer';
 
 
 const Rentals = () => {

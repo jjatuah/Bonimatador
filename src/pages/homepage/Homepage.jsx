@@ -9,7 +9,6 @@ import FeaturedProperties from '../../containers/featured properties/FeaturedPro
 import Contact from '../../components/contact/Contact';
 import Testimonials from '../../containers/testimonials/Testimonials';
 import MembersContainer from '../../containers/members container/MembersContainer';
-import Footer from '../../components/footer/Footer';
 
 
 const Homepage = () => {

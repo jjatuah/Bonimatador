@@ -1,6 +1,5 @@
 import React from 'react';
 import "./PageBanner.css";
-import bg from "../../assets/testimonyBackground.jpg"
 
 
 

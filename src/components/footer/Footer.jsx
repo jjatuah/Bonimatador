@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import { Facebook, Instagram, MailOutline, MessageRounded, Phone, Pinterest, Room, Twitter, WhatsApp,  ArrowRight, AddLocationRounded, LocationCityRounded, LocationOn } from '@material-ui/icons';
+import { Facebook, Instagram, MailOutline, Phone,  WhatsApp,  ArrowRight, LocationOn } from '@material-ui/icons';
 import logo from "../../assets/logo.jpg";
 import { Link } from "react-router-dom";
 

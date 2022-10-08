@@ -1,7 +1,6 @@
 import React from 'react';
 import "./About.css";
 import aboutImage1 from "../../assets/About.jpg";
-import aboutImage2 from "../../assets/About2.jpg";
 import { CheckBoxOutlined } from '@material-ui/icons';
 
 

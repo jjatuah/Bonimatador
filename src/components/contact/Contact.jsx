@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import "./Contact.css";
-import { Facebook, Instagram, MailOutline, Phone, WhatsApp} from '@material-ui/icons';
+import { Instagram, Phone, WhatsApp} from '@material-ui/icons';
 import emailjs from "emailjs-com";
 import validator from 'validator';
 

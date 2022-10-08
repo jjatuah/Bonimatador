@@ -3,10 +3,6 @@ import "./FeaturedProperties.css";
 import FeaturedProperty from '../../components/featured property/FeaturedProperty';
 import featured1 from "../../assets/real4.JPG";
 import featured10 from "../../assets/featured10.jpg";
-import {Swiper, SwiperSlide} from "swiper/react";
-import { FreeMode } from "swiper";
-import "swiper/swiper.min.css";
-// import "swiper/swiper.min.css/free-mode"; 
 
 
 
