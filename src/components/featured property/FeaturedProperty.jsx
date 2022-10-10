@@ -38,7 +38,7 @@ const FeaturedProperty = ({img, alt, price, location, type, setting, description
 
         <div className="propertyButtons">
           <a href="#contact">request info</a>
-          <Link to={detailsPage} target="_blank">view details</Link>
+          <Link to={detailsPage}>view details</Link>
         </div>
     </div>
    );

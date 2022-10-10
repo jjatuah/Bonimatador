@@ -23,9 +23,9 @@ const PagesNavbar = () => {
 
   return ( 
     <div className={ navbar ? "navbar active" : "navbar"}>
-      <a href="#" className='logoImg'>
+      <Link to="/" className='logoImg'>
         <img src={logo} alt="logo" />
-      </a>
+      </Link>
 
       <ul className="navLinks">
         <li><Link to="/">Home</Link></li>
