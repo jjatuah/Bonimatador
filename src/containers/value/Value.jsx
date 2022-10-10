@@ -6,7 +6,7 @@ import ValueItem from '../../components/value item/ValueItem';
 
 
 
-const Value = () => {
+const Value = () => { 
 
   const [desc1, setDesc1] = useState(false);
   const [desc2, setDesc2] = useState(false);
