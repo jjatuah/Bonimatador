@@ -20,7 +20,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBackground);
 
-  return ( 
+  return (
     <div className={ navbar ? "navbar active" : "navbar"}>
       <a href="#" className='logoImg'>
         <img src={logo} alt="logo" />
